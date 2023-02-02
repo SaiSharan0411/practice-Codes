@@ -1,0 +1,14 @@
+#include <stdio.h>
+void func();
+static int count = 20;
+void main()
+{
+    while(count--)
+        func(); 
+}
+void func()
+{
+    static int i;
+    printf("i = %d and count = %d\n", i, count);
+    i++;
+}

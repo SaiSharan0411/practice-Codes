@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>Day of the week</title>
+</head>
+<body>
+<br><br><center><b><i>
+<?php
+echo"<center><b>Day of the week</b></center><br><br>";
+$d=$_POST["num"];
+echo "value is $d<br><br>";
+if($d>=1 and $d<=7)
+{
+switch($d)
+{
+case 1: echo"Sunday";
+break;
+case 2: echo"Monday";
+break;
+case 3: echo"Tuesday";
+break;
+case 4: echo"Wednesday";
+break;
+case 5: echo"Thursday";
+break;
+case 6: echo"Friday";
+break;
+case 7: echo"Saturday";
+break;
+default: echo"not valid";
+break;
+}
+}
+?>
+</b></center></i>
+</body>
+</html>

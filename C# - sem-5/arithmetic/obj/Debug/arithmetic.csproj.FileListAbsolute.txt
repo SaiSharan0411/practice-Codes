@@ -1,0 +1,31 @@
+U:\cat17\C sharp\arithmetic\obj\Debug\arithmetic.csprojAssemblyReference.cache
+U:\cat17\C sharp\arithmetic\obj\Debug\arithmetic.Properties.Resources.resources
+U:\cat17\C sharp\arithmetic\obj\Debug\arithmetic.csproj.GenerateResource.cache
+U:\cat17\C sharp\arithmetic\obj\Debug\arithmetic.csproj.CoreCompileInputs.cache
+U:\cat17\C sharp\arithmetic\obj\Debug\arithmetic.Form1.resources
+U:\cat17\C sharp\arithmetic\bin\Debug\arithmetic.exe.config
+U:\cat17\C sharp\arithmetic\bin\Debug\arithmetic.exe
+U:\cat17\C sharp\arithmetic\bin\Debug\arithmetic.pdb
+U:\cat17\C sharp\arithmetic\obj\Debug\arithmetic.exe
+U:\cat17\C sharp\arithmetic\obj\Debug\arithmetic.pdb
+U:\cat16\c#\arithmetic\bin\Debug\arithmetic.exe.config
+U:\cat16\c#\arithmetic\bin\Debug\arithmetic.exe
+U:\cat16\c#\arithmetic\bin\Debug\arithmetic.pdb
+U:\cat16\c#\arithmetic\obj\Debug\arithmetic.csprojAssemblyReference.cache
+U:\cat16\c#\arithmetic\obj\Debug\arithmetic.Form1.resources
+U:\cat16\c#\arithmetic\obj\Debug\arithmetic.Properties.Resources.resources
+U:\cat16\c#\arithmetic\obj\Debug\arithmetic.csproj.GenerateResource.cache
+U:\cat16\c#\arithmetic\obj\Debug\arithmetic.csproj.CoreCompileInputs.cache
+U:\cat16\c#\arithmetic\obj\Debug\arithmetic.exe
+U:\cat16\c#\arithmetic\obj\Debug\arithmetic.pdb
+D:\cat16\c# cia-1\arithmetic\bin\Debug\arithmetic.exe.config
+D:\cat16\c# cia-1\arithmetic\bin\Debug\arithmetic.exe
+D:\cat16\c# cia-1\arithmetic\bin\Debug\arithmetic.pdb
+D:\cat16\c# cia-1\arithmetic\obj\Debug\arithmetic.csproj.AssemblyReference.cache
+D:\cat16\c# cia-1\arithmetic\obj\Debug\arithmetic.csproj.SuggestedBindingRedirects.cache
+D:\cat16\c# cia-1\arithmetic\obj\Debug\arithmetic.Form1.resources
+D:\cat16\c# cia-1\arithmetic\obj\Debug\arithmetic.Properties.Resources.resources
+D:\cat16\c# cia-1\arithmetic\obj\Debug\arithmetic.csproj.GenerateResource.cache
+D:\cat16\c# cia-1\arithmetic\obj\Debug\arithmetic.csproj.CoreCompileInputs.cache
+D:\cat16\c# cia-1\arithmetic\obj\Debug\arithmetic.exe
+D:\cat16\c# cia-1\arithmetic\obj\Debug\arithmetic.pdb

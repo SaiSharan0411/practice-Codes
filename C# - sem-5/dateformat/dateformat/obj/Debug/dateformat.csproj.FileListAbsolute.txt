@@ -1,0 +1,30 @@
+U:\cat17\C sharp\dateformat\dateformat\bin\Debug\dateformat.exe.config
+U:\cat17\C sharp\dateformat\dateformat\bin\Debug\dateformat.exe
+U:\cat17\C sharp\dateformat\dateformat\bin\Debug\dateformat.pdb
+U:\cat17\C sharp\dateformat\dateformat\obj\Debug\dateformat.Form1.resources
+U:\cat17\C sharp\dateformat\dateformat\obj\Debug\dateformat.Properties.Resources.resources
+U:\cat17\C sharp\dateformat\dateformat\obj\Debug\dateformat.csproj.GenerateResource.cache
+U:\cat17\C sharp\dateformat\dateformat\obj\Debug\dateformat.csproj.CoreCompileInputs.cache
+U:\cat17\C sharp\dateformat\dateformat\obj\Debug\dateformat.exe
+U:\cat17\C sharp\dateformat\dateformat\obj\Debug\dateformat.pdb
+U:\cat16\c#\dateformat\dateformat\obj\Debug\dateformat.csprojAssemblyReference.cache
+U:\cat16\c#\dateformat\dateformat\obj\Debug\dateformat.Form1.resources
+U:\cat16\c#\dateformat\dateformat\obj\Debug\dateformat.Properties.Resources.resources
+U:\cat16\c#\dateformat\dateformat\obj\Debug\dateformat.csproj.GenerateResource.cache
+U:\cat16\c#\dateformat\dateformat\obj\Debug\dateformat.csproj.CoreCompileInputs.cache
+U:\cat16\c#\dateformat\dateformat\obj\Debug\dateformat.exe
+U:\cat16\c#\dateformat\dateformat\obj\Debug\dateformat.pdb
+U:\cat16\c#\dateformat\dateformat\bin\Debug\dateformat.exe.config
+U:\cat16\c#\dateformat\dateformat\bin\Debug\dateformat.exe
+U:\cat16\c#\dateformat\dateformat\bin\Debug\dateformat.pdb
+D:\cat16\c# cia-1\dateformat\dateformat\bin\Debug\dateformat.exe.config
+D:\cat16\c# cia-1\dateformat\dateformat\bin\Debug\dateformat.exe
+D:\cat16\c# cia-1\dateformat\dateformat\bin\Debug\dateformat.pdb
+D:\cat16\c# cia-1\dateformat\dateformat\obj\Debug\dateformat.csproj.AssemblyReference.cache
+D:\cat16\c# cia-1\dateformat\dateformat\obj\Debug\dateformat.csproj.SuggestedBindingRedirects.cache
+D:\cat16\c# cia-1\dateformat\dateformat\obj\Debug\dateformat.Form1.resources
+D:\cat16\c# cia-1\dateformat\dateformat\obj\Debug\dateformat.Properties.Resources.resources
+D:\cat16\c# cia-1\dateformat\dateformat\obj\Debug\dateformat.csproj.GenerateResource.cache
+D:\cat16\c# cia-1\dateformat\dateformat\obj\Debug\dateformat.csproj.CoreCompileInputs.cache
+D:\cat16\c# cia-1\dateformat\dateformat\obj\Debug\dateformat.exe
+D:\cat16\c# cia-1\dateformat\dateformat\obj\Debug\dateformat.pdb

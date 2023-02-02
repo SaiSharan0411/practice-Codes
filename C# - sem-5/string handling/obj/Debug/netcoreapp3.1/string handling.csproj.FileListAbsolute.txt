@@ -1,0 +1,40 @@
+U:\cat17\C sharp\string handling\bin\Debug\netcoreapp3.1\string handling.exe
+U:\cat17\C sharp\string handling\bin\Debug\netcoreapp3.1\string handling.deps.json
+U:\cat17\C sharp\string handling\bin\Debug\netcoreapp3.1\string handling.runtimeconfig.json
+U:\cat17\C sharp\string handling\bin\Debug\netcoreapp3.1\string handling.runtimeconfig.dev.json
+U:\cat17\C sharp\string handling\bin\Debug\netcoreapp3.1\string handling.dll
+U:\cat17\C sharp\string handling\bin\Debug\netcoreapp3.1\string handling.pdb
+U:\cat17\C sharp\string handling\obj\Debug\netcoreapp3.1\string handling.csprojAssemblyReference.cache
+U:\cat17\C sharp\string handling\obj\Debug\netcoreapp3.1\string handling.AssemblyInfoInputs.cache
+U:\cat17\C sharp\string handling\obj\Debug\netcoreapp3.1\string handling.AssemblyInfo.cs
+U:\cat17\C sharp\string handling\obj\Debug\netcoreapp3.1\string handling.csproj.CoreCompileInputs.cache
+U:\cat17\C sharp\string handling\obj\Debug\netcoreapp3.1\string handling.dll
+U:\cat17\C sharp\string handling\obj\Debug\netcoreapp3.1\string handling.pdb
+U:\cat17\C sharp\string handling\obj\Debug\netcoreapp3.1\string handling.genruntimeconfig.cache
+U:\cat16\c#\string handling\bin\Debug\netcoreapp3.1\string handling.exe
+U:\cat16\c#\string handling\bin\Debug\netcoreapp3.1\string handling.deps.json
+U:\cat16\c#\string handling\bin\Debug\netcoreapp3.1\string handling.runtimeconfig.json
+U:\cat16\c#\string handling\bin\Debug\netcoreapp3.1\string handling.runtimeconfig.dev.json
+U:\cat16\c#\string handling\bin\Debug\netcoreapp3.1\string handling.dll
+U:\cat16\c#\string handling\bin\Debug\netcoreapp3.1\string handling.pdb
+U:\cat16\c#\string handling\obj\Debug\netcoreapp3.1\string handling.csprojAssemblyReference.cache
+U:\cat16\c#\string handling\obj\Debug\netcoreapp3.1\string handling.AssemblyInfoInputs.cache
+U:\cat16\c#\string handling\obj\Debug\netcoreapp3.1\string handling.AssemblyInfo.cs
+U:\cat16\c#\string handling\obj\Debug\netcoreapp3.1\string handling.csproj.CoreCompileInputs.cache
+U:\cat16\c#\string handling\obj\Debug\netcoreapp3.1\string handling.dll
+U:\cat16\c#\string handling\obj\Debug\netcoreapp3.1\string handling.pdb
+U:\cat16\c#\string handling\obj\Debug\netcoreapp3.1\string handling.genruntimeconfig.cache
+D:\cat16\c# cia-1\string handling\bin\Debug\netcoreapp3.1\string handling.exe
+D:\cat16\c# cia-1\string handling\bin\Debug\netcoreapp3.1\string handling.deps.json
+D:\cat16\c# cia-1\string handling\bin\Debug\netcoreapp3.1\string handling.runtimeconfig.json
+D:\cat16\c# cia-1\string handling\bin\Debug\netcoreapp3.1\string handling.runtimeconfig.dev.json
+D:\cat16\c# cia-1\string handling\bin\Debug\netcoreapp3.1\string handling.dll
+D:\cat16\c# cia-1\string handling\bin\Debug\netcoreapp3.1\string handling.pdb
+D:\cat16\c# cia-1\string handling\obj\Debug\netcoreapp3.1\string handling.csproj.AssemblyReference.cache
+D:\cat16\c# cia-1\string handling\obj\Debug\netcoreapp3.1\string handling.GeneratedMSBuildEditorConfig.editorconfig
+D:\cat16\c# cia-1\string handling\obj\Debug\netcoreapp3.1\string handling.AssemblyInfoInputs.cache
+D:\cat16\c# cia-1\string handling\obj\Debug\netcoreapp3.1\string handling.AssemblyInfo.cs
+D:\cat16\c# cia-1\string handling\obj\Debug\netcoreapp3.1\string handling.csproj.CoreCompileInputs.cache
+D:\cat16\c# cia-1\string handling\obj\Debug\netcoreapp3.1\string handling.dll
+D:\cat16\c# cia-1\string handling\obj\Debug\netcoreapp3.1\string handling.pdb
+D:\cat16\c# cia-1\string handling\obj\Debug\netcoreapp3.1\string handling.genruntimeconfig.cache

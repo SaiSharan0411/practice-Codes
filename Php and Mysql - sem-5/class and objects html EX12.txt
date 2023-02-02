@@ -1,0 +1,14 @@
+<html>
+<body>
+<h1><center>Student Details</center></h1>
+<form action="studform.php" method="post">
+Enter name:
+<input type="text" name="nam">
+Enter roll no:
+<input type="text" name="roll">
+Enter age:
+<input type="text" name="age">
+<input type="submit">
+</form>
+</body>
+</html>

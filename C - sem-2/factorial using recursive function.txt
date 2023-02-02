@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    int n,f;
+    printf("enter the value to be evaluated");
+    scanf("%d",&n);
+    f=fact(n);
+    printf("\n\nevaluated factorial value is %d",f);
+}
+int fact(int m)
+{
+    if(m==1)
+    return(1);
+    else
+    return(m*fact(m-1));
+}

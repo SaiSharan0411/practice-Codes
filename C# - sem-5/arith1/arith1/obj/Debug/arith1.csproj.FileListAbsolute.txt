@@ -1,0 +1,7 @@
+U:\cat17\C sharp\arith1\arith1\bin\Debug\arith1.exe.config
+U:\cat17\C sharp\arith1\arith1\bin\Debug\arith1.exe
+U:\cat17\C sharp\arith1\arith1\bin\Debug\arith1.pdb
+U:\cat17\C sharp\arith1\arith1\obj\Debug\arith1.csprojAssemblyReference.cache
+U:\cat17\C sharp\arith1\arith1\obj\Debug\arith1.csproj.CoreCompileInputs.cache
+U:\cat17\C sharp\arith1\arith1\obj\Debug\arith1.exe
+U:\cat17\C sharp\arith1\arith1\obj\Debug\arith1.pdb

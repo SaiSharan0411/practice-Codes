@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Javascript</title>
+<body bgcolor=#1abc9c>
+<center>
+<br><br><br><br>
+   <script>
+      function oddeve(){
+     let num1=document.getElementById("num").value;
+if(num1 %2 ==0)
+{
+         alert("THIS IS A EVEN NUMBER");
+}
+else
+{
+         alert ("THIS IS A ODD NUMBER");
+}
+     }
+   </script>
+   <h2>JAVASCRIPT ODD OR EVEN</h2>
+   <form>
+     <input type="number" id="num">
+     <button onclick="oddeve()">Submit</button>
+   </form>
+</center>
+</body>
+</head>
+</html>

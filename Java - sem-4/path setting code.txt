@@ -1,0 +1,10 @@
+u:
+
+cd cas16
+
+cd java
+
+path=c:\jdk1.8\bin
+
+javac
+

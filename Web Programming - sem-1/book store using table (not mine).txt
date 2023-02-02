@@ -1,0 +1,37 @@
+<html>
+<head>
+<title> Catalogue Page</title>
+</head>
+<body>
+<table width="100%" height="100%" border="1">
+<tr>
+<td><img src="xmlb.gif" height="100" width="100"/></td>
+<td>Book: XML Bible
+<br>Author: Winston <br>Publication: Wiely</td>
+<td>$40.5</td>
+<td><img src="adc.gif" height="100" width="100"/></td>
+</tr> <tr>
+<td><img src="ai.gif" height="100" width="100"/></td>
+<td>Book: AI
+<br>Author: S. Russel <br>Publication: Princeton
+<td>$63</td>
+hall</td>
+<td><img src="adc.gif" height="100" width="100"/></td>
+</tr>
+<tr>
+<td><img src="java2.gif" height="100" width="100"/></td>
+<td>Book: Java 2
+<br>Author: Watston
+<br>Publication: BPB publications</td>
+<td>$35.5</td>
+<td><img src="adc.gif" height="100" width="100"/></td>
+</tr> <tr>
+<td><img src="html.gif" height="100" width="100"/></td>
+<td>Book: HTML in 24 hours <br>Author: Sam Peter
+<br>Publication: Sam publications</td>
+<td>$100</td>
+<td><img src="adc.gif" height="100" width="100"/></td>
+</tr>
+</table>
+</body>
+</html>

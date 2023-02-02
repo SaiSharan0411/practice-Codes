@@ -1,0 +1,34 @@
+1.
+declare
+cursor c1 is select * from bill; rec bill%rowtype;
+begin
+open c1;
+loop
+fetch c1 into rec;
+dbms_output.put_line ('Name'llrec.ename);
+exit when c1%notfound;
+end loop;
+close c1;
+end;
+
+2.
+declare
+cursor c1 is select * from bill;
+begin
+for rec in c1 loop
+dbms_output.put_line ('Name'llrec.ename);
+end loop;
+end;
+
+3.
+begin
+for rec in(select*from bill) loop
+dbms_output.put_line('name'||rec.ename);
+end loop;
+end;
+
+4.
+begin
+update bill set totamount=totamount+25 where billno='12121'
+dbms_output.put_line(sql%rowcount'rows affected');
+end;

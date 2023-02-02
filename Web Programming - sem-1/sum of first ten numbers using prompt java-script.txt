@@ -1,0 +1,16 @@
+<body bgcolor=#1abc9c>
+<center>
+<b><br><br>
+<h1>the sum of the first 10 numbers is</h1>
+<script>
+var a=1;
+var sum=0;
+for(a=1;a<=10;a++)
+{
+sum=sum+a;
+}
+document.write(sum);
+</script>
+</b>
+</center>
+</body>

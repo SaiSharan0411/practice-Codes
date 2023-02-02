@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<table id="customers">
+  <tr>
+    <th>food</th>
+    <th>price</th>
+    <th>review</th>
+  </tr>
+  <tr>
+    <td>chapathi</td>
+    <td>20/piece</td>
+    <td>4.4/5</td>
+  </tr>
+  <tr>
+    <td>fried rice</td>
+    <td>70</td>
+    <td>4.7/5</td>
+  </tr>
+  <tr>
+    <td>noodles</td>
+    <td>60</td>
+    <td>4.6/5</td>
+  </tr>
+  <tr>
+    <td>parota</td>
+    <td>15</td>
+    <td>4.9/5</td>
+  </tr>
+</table>
+
+</body>
+</html>

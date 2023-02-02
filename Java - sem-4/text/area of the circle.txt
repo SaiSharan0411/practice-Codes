@@ -1,0 +1,11 @@
+import java.io.*;
+class area
+{
+public static void main(String args[])
+{
+double r;
+float r=10.1f,pi=3.14f;
+a=pi*r*r;
+System.out.println("the area is "+a);
+}
+}

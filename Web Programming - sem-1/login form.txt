@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Login form</h1>
+<form action="\profile.html"method="post">
+<fieldset>
+<label for"username">username</label>
+<input type="text"id="uname">
+<input type="reset"value="reset">
+</fieldst>
+</form>
+</body>
+</html>

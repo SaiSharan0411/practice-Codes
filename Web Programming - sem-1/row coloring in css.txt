@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1 style="background-color:tomato;">tomato</h1>
+<h1 style="background-color:orange;">orange</h1>
+<h1 style="background-color:dodgerblue;">dodger blue</h1>
+<h1 style="background-color:mediumseagreen;">medium sea green</h1>
+<h1 style="background-color:gray;">gray</h1>
+<h1 style="background-color:slateblue;">slate blue</h1>
+<h1 style="background-color:violet;">violet</h1>
+<h1 style="background-color:lightgray;">light gray</h1>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Usage of different font,styles and colors</title>
+</head>
+<body>
+<h1>HI</h1>
+<style>
+h1
+{
+color:orange;
+font-family:Small Fonts;
+font-size:22pt;
+text-decoration:underline;
+}
+</style>
+<h2>I am so excited</h2>
+<style>
+h2
+{
+color:gray;
+font-family:Segoe Script;
+font-size:18pt;
+text-decoration:overline;
+}
+</style>
+<p>I made it</p>
+<style>
+p
+{
+color:blue;
+font-family:Segoe Script;
+font-size:14pt;
+text-decoration:italic;
+}
+</style>
+</body>
+</html>

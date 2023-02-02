@@ -1,0 +1,34 @@
+import java.io.*;
+class swi
+{
+public static void main(String[]args)
+{
+int x=0,y=0,i=o;
+char a[]={'c','h','a','r','a','c','t','e','r','s'};
+for(i=0;i<10;i++)
+{
+switch(a[i])
+{
+case 'a':
+x++;
+break;
+case 'e':
+x++;
+break;
+case 'i':
+x++;
+break;
+case 'o':
+x++;
+break;
+case 'u':
+x++;
+break;
+default:
+y++;
+}
+}
+System.out.println(+x);
+System.out.println(+y);
+}
+}

@@ -1,0 +1,11 @@
+import java.io.*;
+class bitwise
+{
+public static void main(String[] args)
+{
+int x=9, y=8, z=(x|y);
+System.out.println(z);
+}
+}
+
+//practise other bitwise operations

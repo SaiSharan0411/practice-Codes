@@ -1,0 +1,47 @@
+#include<stdio.h>
+int add(int x,int y)
+{
+    return x+y;
+}
+int sub(int x,int y)
+{
+    return x-y;
+}
+int multi(int x,int y)
+{
+    return x*y;
+}
+int divi(int x,int y)
+{
+    return x/y;
+}
+int mod(int x,int y)
+{
+    return x%y;
+}
+int main()
+{
+    int a,b,x,sum,dif,mul,di,mo;
+    printf("enter values for a and b");
+    scanf("%d%d",&a,&b);
+    printf("\n\nchoose an arithmetic operation\naddition\nsubraction\nmultiplication\ndivision\nmodulus\n\n");
+    scanf("%d",&x);
+    sum=add(a,b);
+    dif=sub(a,b);
+    mul=multi(a,b);
+    di=divi(a,b);
+    mo=mod(a,b);
+    switch(x)
+    {
+        case 1:printf("sum=%d",sum);
+        break;
+        case 2:printf("difference=%d",dif);
+        break;
+        case 3:printf("product=%d",mul);
+        break;
+        case 4:printf("dividion=%d",di);
+        break;
+        case 5:printf("modulus=%d",mo);
+    }
+    return 0;
+}

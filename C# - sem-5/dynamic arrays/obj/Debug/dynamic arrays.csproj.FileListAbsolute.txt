@@ -1,0 +1,10 @@
+U:\cat16\c#\dynamic arrays\obj\Debug\dynamic arrays.csprojAssemblyReference.cache
+U:\cat16\c#\dynamic arrays\obj\Debug\dynamic_arrays.Form1.resources
+U:\cat16\c#\dynamic arrays\obj\Debug\dynamic_arrays.Properties.Resources.resources
+U:\cat16\c#\dynamic arrays\obj\Debug\dynamic arrays.csproj.GenerateResource.cache
+U:\cat16\c#\dynamic arrays\obj\Debug\dynamic arrays.csproj.CoreCompileInputs.cache
+U:\cat16\c#\dynamic arrays\bin\Debug\dynamic arrays.exe.config
+U:\cat16\c#\dynamic arrays\bin\Debug\dynamic arrays.exe
+U:\cat16\c#\dynamic arrays\bin\Debug\dynamic arrays.pdb
+U:\cat16\c#\dynamic arrays\obj\Debug\dynamic arrays.exe
+U:\cat16\c#\dynamic arrays\obj\Debug\dynamic arrays.pdb

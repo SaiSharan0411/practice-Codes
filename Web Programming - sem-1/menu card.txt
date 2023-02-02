@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MENU CARD</title> 
+</head>
+<body>
+<h1><c><b><u>MENU CARD</u></b></c></h1>
+<h2><li>chapati</li></h2> <h2><li>parota</li></h2>
+<h2><li>fried rice</li></h2>
+<h2><li>noodles</li></h2>
+<h2><li>naan</li></h2>
+</body> 
+</html>

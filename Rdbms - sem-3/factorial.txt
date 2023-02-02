@@ -1,0 +1,9 @@
+CREATE OR REPLACE FUNCTION FACT(N NUMBER)
+RETURN NUMBER IS
+fact NUMBER:=1;
+BEGIN
+for I IN 1..N LOOP
+fact:=fact*i;
+END LOOP;
+return (fact);
+END;

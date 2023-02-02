@@ -1,0 +1,12 @@
+#include<stdio.h>
+void main()
+{
+    int a,*b,**c,***d,****e;
+    a=10;
+    b=&a;
+    c=&b;
+    d=&c;
+    e=&d;
+    printf("\n a=%d, b=%u, c=%u, d=%u, e=%u",a,b,c,d,e);
+    printf("\n %d %d %d",a, a+*b, **c+***d+****e);
+}

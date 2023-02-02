@@ -1,0 +1,13 @@
+1. SWITCH MULTIPLE-SELECTION STATEMENT
+Occasionally, an algorithm will contain a series of decisions in which a variable or expression is tested separately for each of the constant integral values it may assume, and different actions are taken.
+This is called multiple selection.
+
+2. C:
+Int - 2   or 4 bytes
+Char - 1 byte
+Float - 4 bytes
+PL/SQL:
+Number -   -2 million to +2 million
+Char  - between 1 to 32767
+
+20-uca-016

@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>Login</title>
+</head>
+<body>
+<center><b><i>
+<h1>login</h1>
+<form action="login.php"method="post">
+user name:
+<input type="textbox"name="un">
+<br>
+password:
+<<input type="password"name="pwd">
+<br>
+<input type="submit"value="sign in">
+</form>
+</body>
+</html>

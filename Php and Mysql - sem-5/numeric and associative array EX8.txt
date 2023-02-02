@@ -1,0 +1,12 @@
+<html>
+<body>
+<h2>Numeric and Associative array</h2>
+<?php
+$nos=array(10,20,30,40,50);
+print_r($nos);
+echo "<br>";
+$fruits=array("red"=>"apple","yellow"=>"banana","green"=>"grapes");
+print_r($fruits);
+?>
+</body>
+</html>

@@ -1,0 +1,12 @@
+#include <stdio.h>
+void func(int, int);
+void main()
+{
+    int a = 10, b = 20;
+    printf("Calling func() by value : \n");
+    func(a, b);
+}
+void func(int x, int y)
+{
+    printf("a = %d\nb = %d\n", x, y);
+}

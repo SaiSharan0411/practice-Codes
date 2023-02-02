@@ -1,0 +1,40 @@
+U:\cat17\C sharp\interface\obj\Debug\netcoreapp3.1\interface.csprojAssemblyReference.cache
+U:\cat17\C sharp\interface\obj\Debug\netcoreapp3.1\interface.AssemblyInfoInputs.cache
+U:\cat17\C sharp\interface\obj\Debug\netcoreapp3.1\interface.AssemblyInfo.cs
+U:\cat17\C sharp\interface\obj\Debug\netcoreapp3.1\interface.csproj.CoreCompileInputs.cache
+U:\cat17\C sharp\interface\bin\Debug\netcoreapp3.1\interface.exe
+U:\cat17\C sharp\interface\bin\Debug\netcoreapp3.1\interface.deps.json
+U:\cat17\C sharp\interface\bin\Debug\netcoreapp3.1\interface.runtimeconfig.json
+U:\cat17\C sharp\interface\bin\Debug\netcoreapp3.1\interface.runtimeconfig.dev.json
+U:\cat17\C sharp\interface\bin\Debug\netcoreapp3.1\interface.dll
+U:\cat17\C sharp\interface\bin\Debug\netcoreapp3.1\interface.pdb
+U:\cat17\C sharp\interface\obj\Debug\netcoreapp3.1\interface.dll
+U:\cat17\C sharp\interface\obj\Debug\netcoreapp3.1\interface.pdb
+U:\cat17\C sharp\interface\obj\Debug\netcoreapp3.1\interface.genruntimeconfig.cache
+U:\cat16\c#\interface\bin\Debug\netcoreapp3.1\interface.exe
+U:\cat16\c#\interface\bin\Debug\netcoreapp3.1\interface.deps.json
+U:\cat16\c#\interface\bin\Debug\netcoreapp3.1\interface.runtimeconfig.json
+U:\cat16\c#\interface\bin\Debug\netcoreapp3.1\interface.runtimeconfig.dev.json
+U:\cat16\c#\interface\bin\Debug\netcoreapp3.1\interface.dll
+U:\cat16\c#\interface\bin\Debug\netcoreapp3.1\interface.pdb
+U:\cat16\c#\interface\obj\Debug\netcoreapp3.1\interface.csprojAssemblyReference.cache
+U:\cat16\c#\interface\obj\Debug\netcoreapp3.1\interface.AssemblyInfoInputs.cache
+U:\cat16\c#\interface\obj\Debug\netcoreapp3.1\interface.AssemblyInfo.cs
+U:\cat16\c#\interface\obj\Debug\netcoreapp3.1\interface.csproj.CoreCompileInputs.cache
+U:\cat16\c#\interface\obj\Debug\netcoreapp3.1\interface.dll
+U:\cat16\c#\interface\obj\Debug\netcoreapp3.1\interface.pdb
+U:\cat16\c#\interface\obj\Debug\netcoreapp3.1\interface.genruntimeconfig.cache
+D:\cat16\c# cia-1\interface\bin\Debug\netcoreapp3.1\interface.exe
+D:\cat16\c# cia-1\interface\bin\Debug\netcoreapp3.1\interface.deps.json
+D:\cat16\c# cia-1\interface\bin\Debug\netcoreapp3.1\interface.runtimeconfig.json
+D:\cat16\c# cia-1\interface\bin\Debug\netcoreapp3.1\interface.runtimeconfig.dev.json
+D:\cat16\c# cia-1\interface\bin\Debug\netcoreapp3.1\interface.dll
+D:\cat16\c# cia-1\interface\bin\Debug\netcoreapp3.1\interface.pdb
+D:\cat16\c# cia-1\interface\obj\Debug\netcoreapp3.1\interface.csproj.AssemblyReference.cache
+D:\cat16\c# cia-1\interface\obj\Debug\netcoreapp3.1\interface.GeneratedMSBuildEditorConfig.editorconfig
+D:\cat16\c# cia-1\interface\obj\Debug\netcoreapp3.1\interface.AssemblyInfoInputs.cache
+D:\cat16\c# cia-1\interface\obj\Debug\netcoreapp3.1\interface.AssemblyInfo.cs
+D:\cat16\c# cia-1\interface\obj\Debug\netcoreapp3.1\interface.csproj.CoreCompileInputs.cache
+D:\cat16\c# cia-1\interface\obj\Debug\netcoreapp3.1\interface.dll
+D:\cat16\c# cia-1\interface\obj\Debug\netcoreapp3.1\interface.pdb
+D:\cat16\c# cia-1\interface\obj\Debug\netcoreapp3.1\interface.genruntimeconfig.cache

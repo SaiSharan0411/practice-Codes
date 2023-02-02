@@ -1,0 +1,23 @@
+U:\cat16\c#\login form\bin\Debug\login form.exe.config
+U:\cat16\c#\login form\bin\Debug\login form.exe
+U:\cat16\c#\login form\bin\Debug\login form.pdb
+U:\cat16\c#\login form\obj\Debug\login form.csprojAssemblyReference.cache
+U:\cat16\c#\login form\obj\Debug\login_form.Form1.resources
+U:\cat16\c#\login form\obj\Debug\login_form.Properties.Resources.resources
+U:\cat16\c#\login form\obj\Debug\login form.csproj.GenerateResource.cache
+U:\cat16\c#\login form\obj\Debug\login form.csproj.CoreCompileInputs.cache
+U:\cat16\c#\login form\obj\Debug\login form.exe
+U:\cat16\c#\login form\obj\Debug\login form.pdb
+U:\cat16\c#\login form\obj\Debug\login_form.Form2.resources
+D:\cat16\c# cia-2\login form\bin\Debug\login form.exe.config
+D:\cat16\c# cia-2\login form\bin\Debug\login form.exe
+D:\cat16\c# cia-2\login form\bin\Debug\login form.pdb
+D:\cat16\c# cia-2\login form\obj\Debug\login form.csproj.AssemblyReference.cache
+D:\cat16\c# cia-2\login form\obj\Debug\login form.csproj.SuggestedBindingRedirects.cache
+D:\cat16\c# cia-2\login form\obj\Debug\login_form.Form1.resources
+D:\cat16\c# cia-2\login form\obj\Debug\login_form.Form2.resources
+D:\cat16\c# cia-2\login form\obj\Debug\login_form.Properties.Resources.resources
+D:\cat16\c# cia-2\login form\obj\Debug\login form.csproj.GenerateResource.cache
+D:\cat16\c# cia-2\login form\obj\Debug\login form.csproj.CoreCompileInputs.cache
+D:\cat16\c# cia-2\login form\obj\Debug\login form.exe
+D:\cat16\c# cia-2\login form\obj\Debug\login form.pdb

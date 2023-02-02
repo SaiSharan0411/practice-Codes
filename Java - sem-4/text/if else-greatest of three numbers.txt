@@ -1,0 +1,14 @@
+import java.io.*;
+class greatest3
+{
+public static void main(String arg[])
+{
+int a=5,b=7,c=9;
+if(a>b && a>c)
+System.out.println("a is the greatest");
+if(b>a && b>c)
+System.out.println("b is the greatest");
+else
+System.out.println("c is the greatest");
+}
+}

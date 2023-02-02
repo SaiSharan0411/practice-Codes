@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+	<Ad>
+		<ImageUrl>wallpaperflare.com_wallpaper (2).jpg</ImageUrl>
+		<NavigateUrl>https://www.Amazon.in</NavigateUrl>
+		<AlternateText>Image not available</AlternateText>
+		<Impressions>10</Impressions>
+		<Keyword>Gifts</Keyword>
+	</Ad>
+	<Ad>
+		<ImageUrl>1 (7).jpg</ImageUrl>
+		<NavigateUrl>https://www.Flipkart.com</NavigateUrl>
+		<AlternateText>aspxCode Installing</AlternateText>
+		<Impressions>20</Impressions>
+		<Keyword>Online Shopping</Keyword>
+	</Ad>
+	</Advertisements>

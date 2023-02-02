@@ -1,0 +1,12 @@
+interface greet
+{
+void print();
+}
+class inte implements greet
+{
+public static void main(String[]args)
+{
+greet obj=new inte();
+obj.print();
+}
+}

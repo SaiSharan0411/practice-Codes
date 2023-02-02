@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>login</title>
+</head>
+<body>
+<?php
+$us_nam=$_post["un"];
+$pass=$_post["pwd"];
+if($us_nam=="sai" and $pass=="1234")
+echo"login is successful";
+else if($us_nam!="sai" and $pass=="1234")
+echo"invalid username";
+else if($us_nam=="sai" and $pass!="1234")
+echo"invalid password";
+else
+echo"invalid username and password";
+?>
+</body>
+</html>

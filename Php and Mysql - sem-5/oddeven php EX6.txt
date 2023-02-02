@@ -1,0 +1,20 @@
+<html>
+<body>
+<center><h1><b>Result</b></h1></center>
+<?php
+$initial=$_POST["initial"];
+$final=$_POST["final"];
+$ceven=0;
+$codd=0;
+for ($i=$initial;$i<$final;$i++)
+{
+if ($i%2==0)
+$ceven++;
+else
+$codd++;
+}
+echo "No of even numbers is $ceven <br>";
+echo "No of odd numbers is $codd <br>";
+?>
+</body>
+</html>

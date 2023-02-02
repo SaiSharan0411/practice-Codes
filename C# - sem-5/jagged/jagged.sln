@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jagged", "jagged.csproj", "{4BF0B137-347E-49DB-8860-22CE21C5A2F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BF0B137-347E-49DB-8860-22CE21C5A2F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BF0B137-347E-49DB-8860-22CE21C5A2F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BF0B137-347E-49DB-8860-22CE21C5A2F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BF0B137-347E-49DB-8860-22CE21C5A2F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {634225BD-2900-485A-A55E-9F7220606909}
+	EndGlobalSection
+EndGlobal

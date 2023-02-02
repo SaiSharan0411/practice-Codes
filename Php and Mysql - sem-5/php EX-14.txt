@@ -1,0 +1,57 @@
+<html>
+<body>
+<?php
+$eid=$_POST["eid"];
+$ename=$_POST["nam"];
+$edoj=$_POST["doj"];
+$ebp=$_POST["bp"];
+$ehra=$_POST["hra"];
+$eper=$_POST["per"];
+class emp
+{
+protected $eName;
+protected $eId;
+protected $eDoj;
+protected $eBaspay;
+protected $eHra;
+
+function __construct($feid,$fename,$fdoj,$fbp,$fhra)
+{
+$this->eId = $feid;
+$this->eName=$fename;
+$this->eDoj=$fdoj;
+$this->eBaspay=$fbp;
+$this->eHra=$fhra;
+}
+}
+class empsal extends emp
+{
+protected $pf;
+protected $netsal;
+private function calcpf($per)
+{
+$this->pf =($this->eBaspay+$this->eHra)*($per/100);
+}
+function dispsal()
+{
+global $per;
+$this->calcpf($per);
+$this->netsal=($this->eBaspay+$this->eHra)-$this->pf;
+}
+function displaySlip()
+{
+echo "PAY SLIP OF THE EMPLOYEE <br><br>
+Employee ID: $this->eId <br>
+Employee Name: $this->eName <br>
+Basic pay: $this->eBaspay <br>
+House rent allowance: $this->eHra <br>
+Provident fund: $this->pf <br>
+Net salary: $this->netsal";
+}
+}
+$empone= new empsal($eid,$ename,$edoj,$ebp,$ehra);
+$empone->dispsal();
+$empone->displaySlip();
+?>
+</body>
+</html>

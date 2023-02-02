@@ -1,0 +1,11 @@
+<html>
+<body>
+<center><b>Check for armstrong number</b></center>
+<br>
+<form action="armstrong.php" method="post">
+Enter a number : 
+<input type="text box" name="no"><br>
+<input type="submit">
+</form>
+</body>
+</html>

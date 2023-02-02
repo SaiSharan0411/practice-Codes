@@ -1,0 +1,19 @@
+<html>
+<body><center>
+<form action ="employee.php" method ="post">
+Enter id:
+<input type ="text" name="eid"><br><br>
+Enter name:
+<input type ="text" name="nam"><br><br>
+Enter date of joining:
+<input type ="text" name="doj"><br><br>
+Enter basic pay:
+<input type ="text" name="bp"><br><br>
+Enter house rent allowance:
+<input type ="text" name="hra"><br><br>
+Enter provident fund(in %):
+<input type ="text" name="per"><br><br>
+<input type ="submit">
+</form></center>
+</body>
+</html>

@@ -1,0 +1,40 @@
+U:\cat17\C sharp\jagged\bin\Debug\netcoreapp3.1\jagged.exe
+U:\cat17\C sharp\jagged\bin\Debug\netcoreapp3.1\jagged.deps.json
+U:\cat17\C sharp\jagged\bin\Debug\netcoreapp3.1\jagged.runtimeconfig.json
+U:\cat17\C sharp\jagged\bin\Debug\netcoreapp3.1\jagged.runtimeconfig.dev.json
+U:\cat17\C sharp\jagged\bin\Debug\netcoreapp3.1\jagged.dll
+U:\cat17\C sharp\jagged\bin\Debug\netcoreapp3.1\jagged.pdb
+U:\cat17\C sharp\jagged\obj\Debug\netcoreapp3.1\jagged.csprojAssemblyReference.cache
+U:\cat17\C sharp\jagged\obj\Debug\netcoreapp3.1\jagged.AssemblyInfoInputs.cache
+U:\cat17\C sharp\jagged\obj\Debug\netcoreapp3.1\jagged.AssemblyInfo.cs
+U:\cat17\C sharp\jagged\obj\Debug\netcoreapp3.1\jagged.csproj.CoreCompileInputs.cache
+U:\cat17\C sharp\jagged\obj\Debug\netcoreapp3.1\jagged.dll
+U:\cat17\C sharp\jagged\obj\Debug\netcoreapp3.1\jagged.pdb
+U:\cat17\C sharp\jagged\obj\Debug\netcoreapp3.1\jagged.genruntimeconfig.cache
+U:\cat16\c#\jagged\bin\Debug\netcoreapp3.1\jagged.exe
+U:\cat16\c#\jagged\bin\Debug\netcoreapp3.1\jagged.deps.json
+U:\cat16\c#\jagged\bin\Debug\netcoreapp3.1\jagged.runtimeconfig.json
+U:\cat16\c#\jagged\bin\Debug\netcoreapp3.1\jagged.runtimeconfig.dev.json
+U:\cat16\c#\jagged\bin\Debug\netcoreapp3.1\jagged.dll
+U:\cat16\c#\jagged\bin\Debug\netcoreapp3.1\jagged.pdb
+U:\cat16\c#\jagged\obj\Debug\netcoreapp3.1\jagged.csprojAssemblyReference.cache
+U:\cat16\c#\jagged\obj\Debug\netcoreapp3.1\jagged.AssemblyInfoInputs.cache
+U:\cat16\c#\jagged\obj\Debug\netcoreapp3.1\jagged.AssemblyInfo.cs
+U:\cat16\c#\jagged\obj\Debug\netcoreapp3.1\jagged.csproj.CoreCompileInputs.cache
+U:\cat16\c#\jagged\obj\Debug\netcoreapp3.1\jagged.dll
+U:\cat16\c#\jagged\obj\Debug\netcoreapp3.1\jagged.pdb
+U:\cat16\c#\jagged\obj\Debug\netcoreapp3.1\jagged.genruntimeconfig.cache
+D:\cat16\c# cia-1\jagged\bin\Debug\netcoreapp3.1\jagged.exe
+D:\cat16\c# cia-1\jagged\bin\Debug\netcoreapp3.1\jagged.deps.json
+D:\cat16\c# cia-1\jagged\bin\Debug\netcoreapp3.1\jagged.runtimeconfig.json
+D:\cat16\c# cia-1\jagged\bin\Debug\netcoreapp3.1\jagged.runtimeconfig.dev.json
+D:\cat16\c# cia-1\jagged\bin\Debug\netcoreapp3.1\jagged.dll
+D:\cat16\c# cia-1\jagged\bin\Debug\netcoreapp3.1\jagged.pdb
+D:\cat16\c# cia-1\jagged\obj\Debug\netcoreapp3.1\jagged.csproj.AssemblyReference.cache
+D:\cat16\c# cia-1\jagged\obj\Debug\netcoreapp3.1\jagged.GeneratedMSBuildEditorConfig.editorconfig
+D:\cat16\c# cia-1\jagged\obj\Debug\netcoreapp3.1\jagged.AssemblyInfoInputs.cache
+D:\cat16\c# cia-1\jagged\obj\Debug\netcoreapp3.1\jagged.AssemblyInfo.cs
+D:\cat16\c# cia-1\jagged\obj\Debug\netcoreapp3.1\jagged.csproj.CoreCompileInputs.cache
+D:\cat16\c# cia-1\jagged\obj\Debug\netcoreapp3.1\jagged.dll
+D:\cat16\c# cia-1\jagged\obj\Debug\netcoreapp3.1\jagged.pdb
+D:\cat16\c# cia-1\jagged\obj\Debug\netcoreapp3.1\jagged.genruntimeconfig.cache

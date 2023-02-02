@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>assignment</title>
+</head>
+<body>
+<h1><center>PROFILE</center></h1>
+<h2>name : sai sharan</h2>
+<h2>gender: male</h2>
+<h2>qualification : student</h2>
+<h2>age : 18</h2>
+<h2><u><b><font size-4><i><center><font color-grey>hobbies : nothing</i></font>
+</center></b></u></h2>
+</body> 
+</html>

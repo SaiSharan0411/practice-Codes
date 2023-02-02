@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table,th,td
+{border:1px solid white;
+border-collapse:collapse;}
+th,td
+{padding:12px;}
+</style>
+</head>
+<body bgcolor=cyan>
+<i>
+<b>
+<h1><center>TIME TABLE</center></h1>
+<font color=gray>
+<p>this time table is for shift-2 BCA students only</p>
+<p>full form of the initials are given below</p>
+<p>initials inside the paranthesis are the respected professor's name</p>
+<font color=white>
+<table style="width:100%">
+<tr>
+<th>day order</th>
+<th>hr 1</th>
+<th>hr 2</th>
+<th>hr 3</th>
+<th>hr 4</th>
+<th>hr 5</th>
+</tr>
+<tr>
+<td>1</td>
+<td>GE</td>
+<td>WP(js)</td>
+<td>OR(bd)</td>
+<td>OR(lf)</td>
+<td>GE</td>
+</tr>
+<tr>
+<td>2</td>
+<td>GL</td>
+<td>OR(lf)</td>
+<td>AI(jz)</td>
+<td>AI(jz)</td>
+<td>GL</td>
+</tr>
+<tr>
+<td>3</td>
+<td>GE</td>
+<td>WP-L(js)</td>
+<td>OR(lf)</td>
+<td>GE</td>
+<td>WP(js)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>GL</td>
+<td>OR(bd)</td>
+<td>AI(jz)</td>
+<td>WP-L(js)</td>
+<td>WP(js)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>FC<(lx)</td>
+<td>WP-L(js)</td>
+<td>AI(jz)</td>
+<td>FC(lx)</td>
+<td>AI(jz)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>GE</td>
+<td>OR(bd)</td>
+<td>WP-l(js)</td>
+<td>GE</td>
+<td>FC(lx)</td>
+</tr>
+</table>
+<font color=blue>
+<p>GE-genral english</p>
+<p>GL-genral language</p>
+<p>FC-foundation course</p>
+<p>WP-web programing</p>
+<p>-L-lab for that respective class</p>
+<p>OR-operations research</p>
+<p>AI-artificial intellence</p>
+<p>JS-justin sophia</p>
+<p>BD-bharathi dasan</p>
+<p>JZ-joylin zaffora</p>
+<p>LF-ludyma fernando</p>
+<p>LX-louis xavier</p>
+</b>
+</i>
+</body>
+</html>

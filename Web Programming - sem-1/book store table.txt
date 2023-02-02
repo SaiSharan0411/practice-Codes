@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+#customers tr:hover {background-color: #ddd;}
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+</head>
+<body>
+<center>
+<h1><font color=#1abc9c>BOOKS</font></h1>
+<table id="customers">
+  <tr>
+    <th></th>
+    <th>book</th>
+    <th>author</th>
+    <th>content genre</th>
+    <th>price</th>
+  </tr>
+  <tr>
+    <td><img src=C:\Users\Anand\Desktop\sai></td>
+    <td>12 rules for life</td>
+    <td>jordan peterson</td>
+    <td>life style</th>
+    <td>403</td>
+  </tr>
+  <tr>
+    <td><img src=C:\Users\Anand\Desktop\sai></td>
+    <td>money-master the game</td>
+    <td>Tony Robbins</td>
+    <td>money management</th>
+    <td>485</td>
+  </tr>
+    <tr>
+    <td><img src=C:\Users\Anand\Desktop\sai></td>
+    <td>millionare fastlane</td>
+    <td>MJ DeMarco</td>
+    <td>strategical earning</th>
+    <td>1,721</td>
+  </tr>
+  <tr>
+    <td><img src=C:\Users\Anand\Desktop\sai></td>
+    <td>unshakeable</td>
+    <td>tony robbins</td>
+    <td>money management</th>
+    <td>429</td>
+  </tr>
+</table>
+</center>
+</body>
+</html>

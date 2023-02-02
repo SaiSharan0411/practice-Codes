@@ -1,0 +1,29 @@
+<html>
+<body>
+<?php
+$name=$_POST["nam"];
+$deptno=$_POST["deptno"];
+$age=$_POST["age"];
+$major=$_POST["major"];
+class student
+{
+Public function __construct($n,$d,$a,$m)
+{
+$this->name=$n;
+$this->deptno=$d;
+$this->age=$a;
+$this->major=$m;
+}
+Public function print()
+{
+echo"Student name : $this->name<br>";
+echo"Student department number : $this->deptno<br>";
+echo"Student age : $this->age<br>";
+echo"Student major : $this->major<br>";
+}
+}
+$stu=new student($name,$deptno,$age,$major);
+$stu->print();
+?>
+</body>
+</html>

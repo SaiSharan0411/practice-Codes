@@ -1,0 +1,46 @@
+<html>
+<body>
+<?php
+function func_mult($num,$limit)
+{
+for($i=1;$i<$limit;$i++)
+echo"$num x $i=".($num*$i)."<br>";
+echo"<br>";
+}
+function func_is_odd($num)
+{
+if($num%2 !=0)
+echo"yes";
+else
+echo"no";
+}
+function Conc_str($str1,$str2)
+{
+return $str1.$str2;
+}
+function power_calc($base,$exp)
+{
+$result=$base;
+for($i=1;$i<$exp;$i++)
+$result=$base;
+return $result;
+}
+$num=$_POST["num1"];
+$lim=$_POST["limit"];
+$n=$_POST["num2"];
+$str1=$_POST["s1"];
+$str2=$_POST["s2"];
+$base=$_POST["bas"];
+$exp=$_POST["ex"];
+if(isset($num))
+{
+func_mult($num,$lim);
+func_is_odd($n);
+echo"<br>".conc_str($str1,$str2);
+echo"<br>".power_calc($base,$exp);
+}
+else
+echo"do not";
+?>
+</body>
+</html>

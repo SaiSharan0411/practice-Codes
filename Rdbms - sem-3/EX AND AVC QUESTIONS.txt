@@ -1,0 +1,360 @@
+
+                     
+                          EX-01
+
+1. Create a table EMPLOYEE(EmpId, Name, Job, DoB, salary)
+>>>  CREATE TABLE EMPLOYEE(EMPID CHAR(10), NAME VARCHAR(20), JOB VARCHAR(15), DOB DATE, SALARY NUMBER);
+
+2. Add a column Gender with one character
+>>>  ALTER EMPLOYEE ADD GENDER CHAR(1);
+
+3. Increase the size of the column Job with few more Characters.
+>>> ALTER EMPLOYEE MODIFY JOB VARCHAR(2);
+
+4. Rename the cloumn "Job" as "Designation"
+>>> ALTER EMPLOYEE RENAME COLUMN JOB TO DESIGNATION;
+
+5. Add 5 rows using dynamic variable.
+>>> INSERT INTO EMPLOYEE VALUES('&EmpId', '&Name', '&Job', '&DoB', '&salary', '&GENDER');
+
+6. Display all values from Employee table
+>>> SELECT * FROM EMPLOYEE;
+
+7. Increment the salaries of "Clerks" by 10 %
+>>> UPDATE EMPLOYEE SET SALARY=SALARY+0.10*SALARY WHERE JOB='CLERK';
+
+8. Delete the employee with given emp id
+>>> DELETE EMPLOYEE WHERE EMPID=50;
+
+9. copy the entire table to another table named "Worker"
+>>> CREATE TABLE WOKER AS SELECT * FROM EMPLOYEE;
+
+10. Remove the table employee
+>>>  DROP TABLE EMPLOYEE;
+
+
+
+                  EX-02
+
+
+1. ADD THREE ROWS TO THE WORKER TABLE WITH INSERT COMMAND.
+>>>  INSERT ALL 
+      INTO WORKER VALUES('1001', 'MAHESH', '12-JUN-97', '26880', '1800', 'CLERK', 'M');
+      INTO WORKER VALUES('1002', 'MALLIKA', '18-MAR-97', '29120', '0', 'SALESMAN', 'F') ;
+      INTO WORKER VALUES('1003', 'JASMIN', '19-APR-99', '22400', '2800', 'SALESMAN', 'F') ;
+     SELECT * FROM DUAL;
+
+2. DISPALY THE NAMES OF THE CLERK.
+>>> SELECT NAME FROM WORKER WHERE JOB='CLERK';
+
+3. DISPLAY THE NAME AND DOB OF ALL THE WORKERS WITH SALARY >10000.
+>>> SELECT NAME,DOB FROM WORKER WHERE SALARY>10000;
+
+4. DISPLAY ID AND NAMES OF THE SALESMAN WHOSE SALARY >5000.
+>>> SELECT ID,NAME FROM WORKER WHERE JOB='SALESMAN' AND SALARY>5000;
+
+5. DISPLAY ALL DETAILS WORKER THOSE SALARY BETWEEN 10000 AND 20000.
+>>> SELECT * FROM WORKER WHERE SALARY BETWEEN 10000 AND 20000;
+
+6. DISPLAY THE DETAILS OF WORKER THOSE EXCEPT CLERKS USING LOGICAL NOT.
+>>> SELECT * FROM WORKER WHERE NOT(JOB)='CLERK';
+>>> SELECT * FROM WORKER WHERE JOB NOT IN 'CLERK';
+
+7. DISPLAY THE WORKERS THOSE WHO ARE EITHER CLERK OR MANAGER.
+>>> SELECT * FROM WORKER WHERE JOB='CLERK' OR JOB='MANAGER'; 
+
+
+
+                EX-03
+
+Let the table EMPLOYEE(EmpId, Name, Job,DoB,salary)
+1. Display the Name of the emplyees in Capital Letters.
+>>> SELECT UPPER(NAME) FROM EMPLOYEE;
+
+2. Dispaly the Name with the prefix "Dr."
+>>> SELECT  DECODE(GENDER,'m','DR. ','f','DR. ')|| NAME FROM EMPLOYEE;
+                                                                         
+3. Display the first name if name has two words.
+>>> SELECT SUBSTR(NAME,1,INSTR(NAME,' ')-1) FROM EMPLOYEE; 
+
+4. Display the Job has 'man' with in it.
+>>>  SELECT JOB FROM EMPLOYEE WHERE INSTR(UPPER(JOB),'MAN')<>0;
+
+5. Display the name of the employee resembles 'Kowsik'.
+>>>  SELECT NAME FROM EMPLOYEE WHERE SOUNDEX(NAME)=SOUNDEX('KOWSIK');
+
+
+
+              EX-04
+
+Let the table EMPLOYEE has columns:EmpId, Name, Job,DoB,salary,commission
+
+1. Display the Name of the emplyees and their salaries rounded upto rupees.
+>>> SELECT NAME, ROUND(SALARY,0) FROM EMPLOYEE;
+
+2. Display the Age of all employees
+>>> SELECT NAME, TRUNC((SYSDATE-DOB)/365) AGE FROM EMPLOYEE;
+
+3. Read a number and display its square root.
+>>> SELECT SQRT(&NO) FROM DUAL;
+
+4. Read a number and display its cube (power 3) value.
+>>> SELECT POWER(&NO,3) FROM DUAL;
+
+5. Read a number and dispaly its Sin and cos value.
+>>> SELECT SIN(&NO), COS(&NO) FROM DUAL;
+
+6. Display the difference between salary and commission.
+>>> SELECT SALARY-COMMISSION FROM EMP;
+
+
+    
+             EX-05
+
+1. Display all the employees from the table.
+>>> SELECT * FROM EMPLOYEE;
+
+2. Count the number of supervisor working in the company.
+>>> select count(job) from employee where job='Supervisor';
+
+3. Display the current age and years of experience of all the employees.
+>>> select name,trunc((sysdate-dob)/365) age, trunc((sysdate-doj)/365) experience from employee;
+
+4. Display the salary details of the employee like DA,HRA
+    DA : 20% of salary for clerk and 15% for others
+    HRA : 18% for Salesman, 12% for others
+>>>  select name,salary, decode(job,'clerk',0.2*salary,0.15*salary) DA from employee;
+>>>  select name,salary, decode(job,'salesman',0.18*salary,0.12*salary) HRA from employee;
+
+				5. List the employees whose age is greater than 50.
+				>>> select name, age from employee where age>45;
+    
+				6. List the employees whose experience is greater than 25.
+				>>> select name, Round((sysdate-doj)/365.25,0)>25 as experience from employee;
+
+7. List the employees those who are born on “Monday”
+>>> select name from employee where(to_char(dob,'dy'))='mon';
+
+
+                 EX-06
+
+
+Employee name, employee number,
+date of joining, date of birth, salary and designation.
+
+1. Count the number of supervisor working in the company.
+>>> select count(job) from employee where job='Supervisor';
+
+2. Display the current age and years of experience of all the employees.
+>>> select empname,trunc((sysdate-dob)/365) age, trunc((sysdate-doj)/365) experience from employee;
+
+3. Display the employee details in alphabetical order.
+>>> SELECT * FROM EMPLOYEE ORDER BY NAME;
+
+4. List the junior-most and employee in the company by year of Experience.
+>>> select * from employee where DOJ=(select max(DOJ) from employee);
+
+5.List the employees whose salary greater than average salaries of clerks.
+>>> SELECT NAME FROM EMPLOYEE WHERE SALARY>(SELECT AVG(SALARY) FROM EMPLOYEE WHERE JOB='Manager');
+
+6.List the minimum salary and the maximum salary received by employees.
+>>> SELECT NAME, SALARY FROM EMPLOYEE WHERE SALARY=(SELECT MIN(SALARY) FROM EMPLOYEE);
+>>> SELECT NAME, SALARY FROM EMPLOYEE WHERE SALARY=(SELECT MAX(SALARY) FROM EMPLOYEE);
+
+7.Display the job having average salary greater than 25000.
+>>> SELECT JOB FROM EMPLOYEE GROUP BY JOB HAVING AVG(SALARY)>25000; 
+
+
+       
+               AVC -02
+
+Let the table EMP has the following Columns
+EMPNO, NAME, JOB, DATE_OF_JOIN, DATE_OF_BIRTH, SALARY, COMMISSION, GENDER
+
+Write SQL queries to solve the following
+DISPLAY THE NAME OF THE EMPLOYEES WHOSE EXPERIENCE GREATER THAN 5 YEARS
+DISPLAY THE NAME AND EXPERIENCE OF THE EMPLOYEES
+DISPLAY THE NAME OF THE SENIOR MOST EMPLOYEE
+DISPLAY THE DETAILS OF EMPLOYEES , ARRANGE THEM IN ASCENDING ORDER BY THEIR NAMES
+DISPLAY THE DETAILS OF EMPLOYEES, DISPLAY THEM DESCENDING ORDER BY THEIR DOB.
+DISPLAY THE NAME OF THE EMPLOYEES BORN ON OCTOBER
+DISPLAY THE NAME OF THE EMPLOYEES BORN ON SATURDAY
+DISPLAY ALL DETAILS OF EMPLOYEES THOSE WHO HAVE DIFFFERENCE BETWEEN SALARY AND COMMISSION GREATER THAN 5000.
+DISPLAY THE NAME WITH MR OR MS as Prefix.
+DISPLAY THE EMP_NO, NAME ALONG WITH PAY SLIP (NET PAY, GROSS PAY) AS FOLLOWS
+GROSS PAY= TOTAL SALARY(SALARY+COMISSION)+HRA
+NET PAY=GROSS PAY – PF
+
+JOB
+HRA 
+PF
+CLERK
+12% of salary
+18% of Salary
+SALESMAN
+15% Salary or Commission
+Whichever is maximum 
+12% of Total salary
+MANAGER
+18% salary
+12% of salary
+OTHERS
+14% of salary
+15% of salary
+
+
+
+               EX-07
+
+1. Add a synonym (Alias) to employee Table
+2. Create a sequence for Employee Number and insert values using this auto number.
+3. Create an index for employee number and utilize the index using SQL queries
+
+         
+              EX-08
+
+CREATE TABLES WITH CONSTRAINTS EMPLOYEE with following columns:
+
+Employee name, employee number, date of joining, date of birth, gender and designation.
+
+SALARY with following columns:
+Empno, Basic Pay, HRA, DA, PF  
+
+Add the following constraints
+
+1. Employee number –Primary key, date of join greater than 18 years  to the date of birth, Designation- not empty, and validate gender.
+
+
+2. Add foreign key for employee number in Salary. Basic pay-greater than 1000 and the PF greater than 12% of basic.
+
+
+3.Display the constraints created for the above tables.
+
+
+4. Remove the constraint on PF.
+
+
+              EX-09
+Let the  tables for SUZUKI dealer with following constraints
+
+>> CREATE TABLE CUSTOMER(
+CUSTOMER_ID NUMBER PRIMARY KEY,
+NAME VARCHAR(20),
+STREET VARCHAR2(20),
+PLACE VARCHAR(20));
+
+>> create table booking(book_id number(6),
+date_of_booking date,
+car_model varchar(10),
+colours varchar(10),
+d_place varchar(20),
+d_date date, 
+customer_id number,
+CONSTRAINT  XY_book_id PRIMARY KEY (book_id),
+CONSTRAINT BK_customer_id foreign key (customer_id)
+REFERENCES customer (customer_id) 
+);
+
+>> SELECT CONSTRAINT_NAME, CONSTRAINT_TYPE FROM USER_CONSTRAINTS WHERE TABLE_NAME='BOOKING';
+
+>> INSERT INTO CUSTOMER VALUES('&CUSTOMER_ID','&NAME','&STREET','&PLACE');
+>> INSERT INTO BOOKING VALUES('&BOOK_ID',
+'&DATE_OF_BOOKING',
+'&CAR_MODEL',
+'&COLOURS',
+'&D_PLACE',
+'&D_DATE',
+'&CUSTOMER_ID');
+
+>>SELECT * FROM BOOKING B, CUSTOMER C WHERE NAME='IMMANUVEL' AND C.CUSTOMER_ID=B.CUSTOMER_ID;
+                            
+1. Display the number of white SWIFTT cars  booked from Ashok Nagar.
+>>  SELECT COUNT(BOOK_ID) AS TOTAL_RED_CARS FROM BOOKING B, CUSTOMER C WHERE B.CUSTOMER_ID=C.CUSTOMER_ID AND COLOURS='WHITE' AND 
+    CAR_MODEL='SWIFT' AND D_PLACE='ASHOK NAGAR';
+
+2. Display the car models booked in Saturdays.
+>>  SELECT CAR_MODEL FROM BOOKING WHERE TO_CHAR(DATE_OF_BOOKING,'DY')='SAT';
+
+3. Display the car models and booking date of cars booked by “John”.
+>>  SELECT CAR_MODEL, DATE_OF_BOOKING FROM BOOKING B, CUSTOMER C WHERE B.CUSTOMER_ID=C.CUSTOMER_ID AND NAME='JOHN'; 
+
+4. Display the name of the customer who booked maximum cars.
+5. Display the name of the customer who boked  grey  Breeza cars.
+6. Display the number of cars in each model to be delivered.
+7. Display the name of the car sold maximum in AUG 2021.
+
+
+                EX-10
+
+Solve the following Using DECODE and CASE separately
+1. Read a number and check whether ODD or Even
+2. Read a single digit number and display in Word. 1-> ONE, 2--> TWO etc 
+3. The revised pay is calculated  and modify in EMP table Using DECODE   and  CASE as follows.
+
+Modify the existing salary with the following 
+
+Job Of SALARY
+Clerk 20 %
+Manager 16%
+Salesman 15%
+Others 13%
+
+
+                     TABLE: ACCOUNTS AND TRANSACTION
+
+CREATE TABLE ACCOUNTS(ACCNO NUMBER PRIMARY KEY, NAME VARCHAR(25), OP_DATE DATE, CURR_BAL NUMBER (12,2), BRANCH_CODE VARCHAR(5));
+CREATE TABLE TRANSACTION(TR_ID NUMBER, TR_DATE DATE, ACCNO NUMBER REFERENCES ACCOUNTS, TR_TYPE CHAR(1));
+ALTER TABLE TRANSACTION ADD TR_AMOUNT NUMBER(10,2);
+ALTER TABLE ACCOUNTS ADD ACC_TYPE CHAR(1);
+UPDATE TABLE  ACCOUNTS SET ACC_TYPE='S';
+ UPDATE TRANSACTION SET TR_AMOUNT=5000 WHERE TR_ID=1212;
+ UPDATE TRANSACTION SET TR_AMOUNT=1000 WHERE TR_ID=1321;
+ UPDATE TRANSACTION SET TR_AMOUNT=2000 WHERE TR_ID=1289;
+
+1. ALTER TABLE ACCOUNTS ADD INTROD_ACCNO NUMBER REFERENCES ACCOUNTS(ACCNO);
+2. INSERT ALL
+   INTO ACCOUNTS VALUES(176171,'PETER','30-NOV-2020',1000,'CH171',176171)
+   INTO ACCOUNTS VALUES(100856,'JOHN','12-APR-2010',1200, 'TN176', 176171)
+   SELECT * FROM DUAL;
+  
+   INSERT ALL 
+   INTO TRANSACTION VALUES(1212,'18-JUL-2021', 176171,'D')
+   INTO TRANSACTION VALUES(1321,'10-APR-2021', 100856,'D')
+   INTO TRANSACTION VALUES(1289,'20-AUG-2021',176171,'W')
+   SELECT * FROM DUAL;
+3. ALTER TABLE ACCOUNTS ADD ACC_TYPE CHAR(1);
+   UPDATE TABLE  ACCOUNTS SET ACC_TYPE='S';
+4. SELECT TR_ID, TR_DATE,TR_AMOUNT FROM TRANSACTION, ACCOUNTS WHERE TR_TYPE='W' AND NAME='PETER' AND ACCOUNTS.ACCNO=TRANSACTION.ACCNO;
+5. SELECT NAME, ACCOUNTS.ACCNO FROM ACCOUNTS, TRANSACTION WHERE TO_CHAR(TR_DATE,'DY')='SAT' AND SUBSTR(TR_DATE,4,3)=SUBSTR(SYSDATE,4,3) 
+   AND ACCOUNTS.ACCNO=TRANSACTION.ACCNO;  ***(WE CAN ALSO USE WITHOUT 3 )***
+   SELECT NAME, ACCOUNTS.ACCNO FROM ACCOUNTS, TRANSACTION WHERE TO_CHAR(TR_DATE,'DY')='SAT' AND TO_CHAR(TR_DATE,'MM')=TO_CHAR(SYSDATE,'MM')
+   AND ACCOUNTS.ACCNO=TRANSACTION.ACCNO;
+*INSERT INTO TRANSACTION VALUES(18199,'18-SEP-2021', 176171,'W',1000);
+
+6. SELECT NAME FROM ACCOUNTS WHERE CURR_BAL=( SELECT MAX(CURR_BAL) FROM ACCOUNTS);
+7. SELECT NAME, ACCOUNTS.ACCNO FROM ACCOUNTS, TRANSACTION WHERE SUBSTR(TR_DATE,8)<>SUBSTR(SYSDATE,8) 
+   AND ACCOUNTS.ACCNO=TRANSACTION.ACCNO; 
+   SELECT NAME, ACCOUNTS.ACCNO FROM ACCOUNTS, TRANSACTION WHERE TO_CHAR(TR_DATE,'YYYY')<>TO_CHAR(SYSDATE,'YYYY')
+   AND ACCOUNTS.ACCNO=TRANSACTION.ACCNO;
+8. SELECT SUM(TR_AMOUNT) FROM ACCOUNTS, TRANSACTION WHERE BRANCH_CODE='CH171' AND TR_TYPE='D' AND ACCOUNTS.ACCNO=TRANSACTION.ACCNO;
+9. SELECT TRANSACTION.* FROM TRANSACTION, ACCOUNTS WHERE NAME='PETER' AND TR_TYPE='W' AND ACCOUNTS.ACCNO=TRANSACTION.ACCNO;
+10. SELECT NAME FROM ACCOUNTS WHERE ACC_TYPE='S';
+
+
+
+EMPNO, NAME, JOB, DATE_OF_JOIN, DATE_OF_BIRTH, SALARY, COMMISSION, GENDER
+
+1. DISPLAY THE NAME OF THE EMPLOYEES WHOSE EXPERIENCE GREATER THAN 5 YEARS
+>>  SELECT EMPNAME FROM EMPLOYEE WHERE TRUNC((SYSDATE-DOJ)/365)>5;
+
+2. DISPLAY THE NAME AND EXPERIENCE OF THE EMPLOYEES
+>> SELECT EMPNAME, TRUNC((SYSDATE-DOJ)/365) EXPERIENCE FROM EMPLOYEE;
+
+
+
+					EX:11
+
+1. Write  a PL/SQL block to read radious and find the area of a circle
+2. Read 2 numbers and find the biggest.
+3. Read 3 numbers and find the biggest one.
+4. Read a number and display whether odd or Even

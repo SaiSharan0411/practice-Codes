@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>Positive, Negative or Zero</title>
+</head>
+<body>
+<?php
+$a=10;
+if($a>0)
+echo"the given number is positive";
+else if($a==0)
+echo"the given number is zero";
+else
+echo"the given number is negative";
+?>
+</body>
+</html>

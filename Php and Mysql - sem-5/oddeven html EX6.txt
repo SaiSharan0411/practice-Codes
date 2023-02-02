@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>No of Odd and Even</title>
+</head>
+<body>
+<center><h1><b>No of Odd and Even</b></h1></center>
+<form action="oddeven.php" method="post">
+<label for="init">Enter the starting number: </label>
+<input type="text box" id="init" name="initial">
+<br>
+<label for="fina">Enter the ending number: </label>
+<input type="text box" id="fina" name="final">
+<br>
+<input type="submit">
+</form>
+</body>
+</html>

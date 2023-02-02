@@ -1,0 +1,17 @@
+<html>
+<body>
+<h2>Returning array</h2>
+<?php
+function array_change($arr)
+{
+$arr[1]=20;
+return $arr;
+}
+$arr=array(1,2,3,4);
+echo "<br> Before array_change(): ";
+print_r($arr);
+echo "<br><br> After array_change(): ";
+print_r(array_change($arr));
+?>
+</body>
+</html>

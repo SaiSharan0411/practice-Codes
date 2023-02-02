@@ -1,0 +1,29 @@
+1> INSERT INTO college values('&COLLEGE_ID','&CNAME','&PLACE','&DIST','&STATE');
+   INSERT INTO PART values('&PART_ID','&PNAME','&COLLEGE_ID');
+   INSERT INTO EVENT values('&ENAME','&PART_ID','&WIN_POS');
+
+2> SELECT PART_ID,PNAME,SUM(DECODE(WIN_POS,1,10,2,5,3,2,0))
+   TOT_POINTS
+   FROM EVENTS E,PARTICIPANTS P
+   E.PART_ID=P.PART_ID
+   GROUP BY PART_ID;
+
+3> SELECT CNAME,COUNT(PART_ID) FROM PART P, COLLEGE C
+   WHERE CNAME='LOYOLA COLLEGE' AND P.COLLEGE_ID=C.COLLEGE_ID;
+
+4> select pname,cname from part p, college c, event e
+   where ename='meme'
+   and p.college_id=c.college_id
+   and p.part_id=e.part_id;
+
+5> SELECT PNAME FROM PART, COLLEGE
+   WHERE DIST='THIRUVALLUR'
+   AND PART.COLLEGE_ID=COLLEGE.COLLEGE_ID;
+
+6> SELECT ENAME FROM EVENT WHERE PART_ID=(SELECT COUNT(PART_ID) FROM EVENT)
+   AND GROUP BY PART_ID;
+
+7> select cname from college c,event e ,part p
+   where ename=(select min(ename) from event)
+   and c.college_id=p.college_id
+   and p.part_id=e.part_id; 

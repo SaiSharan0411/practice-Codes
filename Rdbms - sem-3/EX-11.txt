@@ -1,0 +1,63 @@
+1
+
+declare
+a number(10,2);
+pi constant number(10,2):=3.14;
+r number(10);
+begin
+r:=&r;
+a:=pi*r*r;
+dbms_output.put_line('area='||a);
+end;
+
+2
+
+declare
+a number:=10;
+b number:=12;
+begin
+dbms_output.put_line('a='||a||' b='||b||' c='||c);
+if a>b AND a>c
+then
+dbms_output.put_line('a is greatest');
+else
+dbms_output.put_line('b is greatest');
+end if;
+end;
+/
+
+3
+
+declare
+a number:=10;
+b number:=12;
+c number:=5;
+begin
+dbms_output.put_line('a='||a||' b='||b||' c='||c);
+if a>b AND a>c
+then
+dbms_output.put_line('a is greatest');
+else
+if b>a AND b>c
+then
+dbms_output.put_line('b is greatest');
+else
+dbms_output.put_line('c is greatest');
+end if;
+end if;
+end;
+/
+
+4
+
+declare
+n number:=&n;
+begin
+if mod(n,2)=0
+then
+dbms_output.put_line('number is even');
+else
+dbms_output.put_line('number is odd');
+end if;
+end;
+/

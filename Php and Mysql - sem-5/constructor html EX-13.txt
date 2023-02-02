@@ -1,0 +1,15 @@
+<html>
+<title>Constructors</title>
+<body>
+<form action="constructor.php" method="post">
+Enter student Name :<br>
+<input type="text box" name="nam"><br><br>
+Enter student Dept no :<br>
+<input type="text box" name="deptno"><br><br>
+Enter student Age :<br>
+<input type="text box" name="age"><br><br>
+Enter student Major :<br>
+<input type="text box" name="major"><br><br>
+<input type="submit" name="submit">
+</body>
+</html>

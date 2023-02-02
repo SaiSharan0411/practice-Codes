@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+    int first_digit;
+       printf("Enter any number between one to nine \n\n");
+       scanf("%d",& first_digit);
+       switch(first_digit ) 
+ {
+        case 1: printf("this number is :one"); break;
+        case 2: printf("this number is : two"); break;
+        case 3: printf("this number is : three"); break;
+        case 4: printf("this number is : four"); break;
+        case 5: printf("this number is : five"); break;
+        case 6: printf("this number is : six"); break;
+        case 7: printf("this number is : seven"); break;
+        case 8: printf("this number is : eight"); break;
+        case 9: printf("this number is : nine"); break;
+        default:
+            printf("this number is not between 1 to 9 ");
+        
+    }
+}

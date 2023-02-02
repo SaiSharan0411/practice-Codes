@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+    float years,secs;
+    printf("enter your age in years\n\n");
+    scanf("%f",&years);
+    secs=years*365*24*60*60;
+    printf("you have lived for %f seconds",secs);
+}

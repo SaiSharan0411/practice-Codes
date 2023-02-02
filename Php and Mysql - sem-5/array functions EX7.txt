@@ -1,0 +1,40 @@
+<html>
+<body>
+<h1><center>Array Functions</center></h1>
+<?php
+$arr=array(10,14,16,12,20,18);
+$ar=array("a"=>"apple","b"=>"ball","c"=>"cat");
+echo"Starting array'arr'<br><br>";
+print_r($arr);
+echo"<br>Starting Associative array'ar' ";
+print_r($ar);
+array_push($arr,22);
+echo"<br>Array after array_push() ";
+print_r($arr);
+array_pop($arr);
+echo"<br>Array after array_pop() ";
+print_r($arr);
+array_unshift($arr);
+echo"<br>Array after array_unshift() ";
+print_r($arr);
+array_shift($arr);
+echo"<br>Array after array_shift() ";
+print_r($arr);
+sort($arr);
+echo"<br>Array after sort() ";
+print_r($arr);
+asort($ar);
+echo"<br>ar after asort() ";
+print_r($ar);
+arsort($ar);
+echo"<br>ar after arsort() ";
+print_r($ar);
+ksort($ar);
+echo"<br>ar after ksort() ";
+print_r($ar);
+krsort($ar);
+echo"<br>ar after krsort() ";
+print_r($ar);
+?>
+</body>
+</html>

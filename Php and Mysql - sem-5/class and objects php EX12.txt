@@ -1,0 +1,27 @@
+<html>
+<body>
+<?php
+class student
+{
+private $name;
+private $roll;
+private $age;
+function __construct($n,$r,$a)
+{
+$this -> name=$n;
+$this -> roll=$r;
+$this -> age=$a;
+}
+function print()
+{
+echo "Name: $this->name<br>Roll no: $this->roll<br>age: $this->age<br>";
+}
+}
+$name=$_POST["nam"];
+$roll=$_POST["roll"];
+$age=$_POST["age"];
+$stuone=new student($name,$roll,$age);
+$stuone->print();
+?>
+</body>
+</html>

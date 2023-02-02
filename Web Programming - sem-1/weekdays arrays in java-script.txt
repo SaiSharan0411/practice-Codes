@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+<center>
+<h2>Arrays</h2>
+<p id="demo"></p>
+<script>
+var weekdays = ["monday", "tuesday", "wednesday", "thursday", "friday"];
+document.getElementById("demo").innerHTML = weekdays.toString();
+</script>
+</center>
+</body>
+</html>

@@ -1,0 +1,41 @@
+U:\cat17\C sharp\WDML\bin\Debug\WDML.exe.config
+U:\cat17\C sharp\WDML\bin\Debug\WDML.exe
+U:\cat17\C sharp\WDML\bin\Debug\WDML.pdb
+U:\cat17\C sharp\WDML\obj\Debug\WDML.csprojAssemblyReference.cache
+U:\cat17\C sharp\WDML\obj\Debug\WDML.Form1.resources
+U:\cat17\C sharp\WDML\obj\Debug\WDML.Properties.Resources.resources
+U:\cat17\C sharp\WDML\obj\Debug\WDML.csproj.GenerateResource.cache
+U:\cat17\C sharp\WDML\obj\Debug\WDML.csproj.CoreCompileInputs.cache
+U:\cat17\C sharp\WDML\obj\Debug\WDML.exe
+U:\cat17\C sharp\WDML\obj\Debug\WDML.pdb
+U:\cat16\WDML\bin\Debug\WDML.exe.config
+U:\cat16\WDML\bin\Debug\WDML.exe
+U:\cat16\WDML\bin\Debug\WDML.pdb
+U:\cat16\WDML\obj\Debug\WDML.csprojAssemblyReference.cache
+U:\cat16\WDML\obj\Debug\WDML.Form1.resources
+U:\cat16\WDML\obj\Debug\WDML.Properties.Resources.resources
+U:\cat16\WDML\obj\Debug\WDML.csproj.GenerateResource.cache
+U:\cat16\WDML\obj\Debug\WDML.csproj.CoreCompileInputs.cache
+U:\cat16\WDML\obj\Debug\WDML.exe
+U:\cat16\WDML\obj\Debug\WDML.pdb
+C:\New folder\WDML\bin\Debug\WDML.exe.config
+C:\New folder\WDML\bin\Debug\WDML.exe
+C:\New folder\WDML\bin\Debug\WDML.pdb
+C:\New folder\WDML\obj\Debug\WDML.csprojAssemblyReference.cache
+C:\New folder\WDML\obj\Debug\WDML.Form1.resources
+C:\New folder\WDML\obj\Debug\WDML.Properties.Resources.resources
+C:\New folder\WDML\obj\Debug\WDML.csproj.GenerateResource.cache
+C:\New folder\WDML\obj\Debug\WDML.csproj.CoreCompileInputs.cache
+C:\New folder\WDML\obj\Debug\WDML.exe
+C:\New folder\WDML\obj\Debug\WDML.pdb
+D:\cat16\c# cia-2\WDML\bin\Debug\WDML.exe.config
+D:\cat16\c# cia-2\WDML\bin\Debug\WDML.exe
+D:\cat16\c# cia-2\WDML\bin\Debug\WDML.pdb
+D:\cat16\c# cia-2\WDML\obj\Debug\WDML.csproj.AssemblyReference.cache
+D:\cat16\c# cia-2\WDML\obj\Debug\WDML.csproj.SuggestedBindingRedirects.cache
+D:\cat16\c# cia-2\WDML\obj\Debug\WDML.Form1.resources
+D:\cat16\c# cia-2\WDML\obj\Debug\WDML.Properties.Resources.resources
+D:\cat16\c# cia-2\WDML\obj\Debug\WDML.csproj.GenerateResource.cache
+D:\cat16\c# cia-2\WDML\obj\Debug\WDML.csproj.CoreCompileInputs.cache
+D:\cat16\c# cia-2\WDML\obj\Debug\WDML.exe
+D:\cat16\c# cia-2\WDML\obj\Debug\WDML.pdb

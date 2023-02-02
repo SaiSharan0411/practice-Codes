@@ -1,0 +1,24 @@
+import java.io.*;
+class rectangle
+{
+double length;
+double width;
+void area()
+{
+double area;
+area=this.length*this.width;
+System.out.println("area of rectangle is : "+area);
+}
+}
+class use_rectangle
+{
+public static void main(String[]args)
+{
+rectangle rect=new rectangle();
+rect.length=15.854;
+rect.width=22.65;
+System.out.println("length="+rect.length);
+System.out.println("width="+rect.eidth);
+rect.area();
+}
+}

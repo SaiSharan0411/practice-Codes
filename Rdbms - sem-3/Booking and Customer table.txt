@@ -1,0 +1,45 @@
+CREATE TABLE CUSTOMER(
+CUSTOMER_ID NUMBER PRIMARY KEY,
+NAME VARCHAR(20),
+STREET VARCHAR2(20),
+PLACE VARCHAR(20));
+
+>> create table Booking(book_id number(6),
+date_of_booking date,
+car_model varchar(10),
+colours varchar(10),
+d_place varchar(20),
+d_date date, 
+customer_id number,
+CONSTRAINT  XY_book_id PRIMARY KEY (book_id),
+CONSTRAINT BK_customer_id foreign key (customer_id)
+REFERENCES customer (customer_id) 
+);
+
+>> SELECT CONSTRAINT_NAME, CONSTRAINT_TYPE FROM USER_CONSTRAINTS WHERE TABLE_NAME='BOOKING';
+
+>> INSERT INTO CUSTOMER VALUES('&CUSTOMER_ID','&NAME','&STREET','&PLACE');
+>> INSERT INTO BOOKING VALUES('&BOOK_ID',
+'&DATE_OF_BOOKING',
+'&CAR_MODEL',
+'&COLOURS',
+'&D_PLACE',
+'&D_DATE',
+'&CUSTOMER_ID');
+
+>>SELECT * FROM BOOKING B, CUSTOMER C WHERE NAME='IMMANUVEL' AND C.CUSTOMER_ID=B.CUSTOMER_ID;
+                            
+1. Display the number of white SWIFTT cars  booked from Ashok Nagar.
+>>  SELECT COUNT(BOOK_ID) AS TOTAL_RED_CARS FROM BOOKING B, CUSTOMER C WHERE B.CUSTOMER_ID=C.CUSTOMER_ID AND COLOURS='WHITE' AND 
+    CAR_MODEL='SWIFT' AND D_PLACE='ASHOK NAGAR';
+
+2. Display the car models booked in Saturdays.
+>>  SELECT CAR_MODEL FROM BOOKING WHERE TO_CHAR(DATE_OF_BOOKING,'DY')='SAT';
+
+3. Display the car models and booking date of cars booked by “John”.
+>>  SELECT CAR_MODEL, DATE_OF_BOOKING FROM BOOKING B, CUSTOMER C WHERE B.CUSTOMER_ID=C.CUSTOMER_ID AND NAME='JOHN'; 
+
+4. Display the name of the customer who booked maximum cars.
+5. Display the name of the customer who boked  grey  Breeza cars.
+6. Display the number of cars in each model to be delivered.
+7. Display the name of

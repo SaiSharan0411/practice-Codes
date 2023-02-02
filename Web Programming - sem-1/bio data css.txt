@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  border-collapse: collapse;
+  width: 100%;}
+th, td {
+  padding: 10px;
+  text-align: center;
+  text-color: white;
+  border-bottom: 1px solid #ddd;}
+tr:hover {background-color:cyan;}
+</style>
+</head>
+<body bgcolor=cyan>
+<h2><center><font color=white>BIO DATA</font></center></h2>
+<table>
+<tr>
+<td>name</td>
+<td>:</td>
+<td>sai sharan</td>
+</tr>
+<tr>
+<td>date of birth</td>
+<td>:</td>
+<td>11/04/2002</td>
+</tr>
+<tr>
+<td>age</td>
+<td>:</td>
+<td>18</td>
+</tr>
+<tr>
+<td>blood group</td>
+<td>:</td>
+<td>a1 +ve</td>
+</tr>
+<tr>
+<td>educational qualification</td>
+<td>:</td>
+<td>12th pass, first BCA student year in loyola</td>
+</tr>
+<tr>
+<td>hobbies</td>
+<td>:</td>
+<td>nothing much</td>
+</tr>
+<tr>
+<td>father's name</td>
+<td>:</td>
+<td>anand</td>
+</tr>
+<tr>
+<tr>
+<td>mother's name</td>
+<td>:</td>
+<td>aarthi</td>
+</tr>
+</table>
+</body>
+</html>

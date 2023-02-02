@@ -1,0 +1,19 @@
+<html>
+<body>
+<?php
+$no=$_POST["no"];
+$sum=0;
+$n=$no;
+while ($no>0)
+{
+$dg=$no%10;
+$no=$no/10;
+$sum=$sum+$dg*$dg*$dg;
+}
+if ($sum==$n)
+echo "it is armstrong number";
+else
+echo "it is not a armstrong number";
+?>
+</body>
+</html>

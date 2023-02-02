@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    char ch[20],a;
+    printf("enter a string\n");
+    gets(ch);
+    printf("the entered string is\n");
+    puts(ch);
+    printf("enter a character\n");
+    a=getchar();
+    printf("the entered character is\n");
+    putchar(a);
+    return 0;
+}

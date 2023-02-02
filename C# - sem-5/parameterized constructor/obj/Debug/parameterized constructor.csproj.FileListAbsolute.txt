@@ -1,0 +1,7 @@
+U:\cat16\c#\parameterized constructor\bin\Debug\parameterized constructor.exe.config
+U:\cat16\c#\parameterized constructor\bin\Debug\parameterized constructor.exe
+U:\cat16\c#\parameterized constructor\bin\Debug\parameterized constructor.pdb
+U:\cat16\c#\parameterized constructor\obj\Debug\parameterized constructor.csprojAssemblyReference.cache
+U:\cat16\c#\parameterized constructor\obj\Debug\parameterized constructor.csproj.CoreCompileInputs.cache
+U:\cat16\c#\parameterized constructor\obj\Debug\parameterized constructor.exe
+U:\cat16\c#\parameterized constructor\obj\Debug\parameterized constructor.pdb

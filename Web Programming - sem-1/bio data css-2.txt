@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+{box-sizing: border box;} 
+h1{
+background-color : golden rod; 
+color: white; 
+padding: 20px;
+}
+fieldset {
+background-color: cornsilk;
+text-align: left; 
+display: block;
+}
+</style >
+</head>
+<body>
+<h1><center>BIO DATA</center></h1> 
+<fieldset>
+<legend>Profile</legend>
+<p>Name: sai sharan</p> 
+<p>Age: 18</p>
+<p>Def No: 20-UCA-016</p> 
+<p>Hobby: nothing</p>
+</fieldset>
+</body>
+</html>

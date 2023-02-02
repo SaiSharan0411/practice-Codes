@@ -1,0 +1,103 @@
+#include<stdio.h>
+#include<conio.h>
+#include<stdlib.h>
+#include<process.h>
+ 
+void write() {
+     FILE *fpw;
+     char str[50];
+     fpw = fopen("Sample.txt", "w");
+     if (fpw== NULL)
+     {
+          puts("Error in opening file!");
+     }
+     printf("Enter your string:");
+     scanf("%s", str);
+     fprintf(fpw, str);
+     fclose(fpw);
+     getch();
+}
+ 
+void append() 
+{
+     FILE *fpw;
+     char str[50];
+     fpw = fopen("Sample.txt", "a");
+     if (fpw== NULL)
+     {
+          puts("Error in opening file!");
+     }
+     printf("\nEnter your string:");
+     scanf("%s", str);
+     fprintf(fpw, str);
+     fclose(fpw);
+     getch();
+}
+ 
+void read()
+{
+     FILE *fpr;
+     char str[100];
+     fpr = fopen("Sample.txt", "r");
+     if (fpr == NULL)
+     {
+          puts("Error in opening file!");
+     }
+     while(1)
+     {
+          if(fgets(str, 10, fpr) ==NULL)
+               break;
+          else
+               printf("%s", str);
+     }
+     fclose(fpr);
+     getch();
+}
+ 
+void main()
+{
+     int ch;
+     char rep = 'y';
+     system("cls");
+     printf("\t\tWelcome to File Handling Operations\n\n");
+     printf("By default there is an empty txt file, \n so you can choose from the options down below \n\n");
+     printf("1) Write to file\n");
+     printf("2) Append to file\n");
+     printf("3) Read the file\n");
+     printf("4) Exit\n");
+ 
+     while(rep == 'y' || rep == 'Y')
+     {
+          printf("\nEnter your choice: ");
+          scanf("%d",&ch);
+          switch(ch)
+          {
+               case 1:
+               {
+                    write();
+                    break;
+               }
+               case 2:
+               {
+                    append();
+                    break;
+               }
+               case 3:
+               {
+                    read();
+                    break;
+               }
+               case 4: 
+               {
+                   printf("Thank you goodbye!");
+                   exit(0);
+               }
+          }
+          printf("\nDo you want to continue(y/n)? : ");
+          scanf("%c", &rep);
+          rep = getchar();
+     }
+     
+     getch();
+}
+

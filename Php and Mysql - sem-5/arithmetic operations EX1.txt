@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>Arithmetic operations</title>
+</head>
+<body>
+<?php
+echo"<center><b>Arithmetic Operations</b></center>";
+$no1=9;
+$no2=8;
+echo"<br>addition of 2 numbers is ".($no1+$no2);
+echo"<br>subraction of 2 numbers is ".($no1-$no2);
+echo"<br>multiplication of 2 numbers is ".($no1*$no2);
+echo"<br>division of 2 numbers is ".($no1/$no2);
+echo"<br>modulus of 2 numbers is ".($no1%$no2);
+?>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<html>
+<body>
+<center><b>
+<form action="day.php" method="post">
+Enter a number
+<input type="text box" name="num">
+<br>
+<input type="submit" value="submit">
+</form>
+</b></center>
+</body>
+</html>

@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main()
+{
+int a[50],n,i,j,t;
+printf("Enter the total no.of elements :\n\n");
+scanf("%d",&n);
+for(i=0;i<n;i++)
+{
+printf("Enter the number :\n");
+scanf("%d",&a[i]);
+}
+for(i=0;i<n-1;i++)
+{
+for(j=i+1;j<n;j++)
+{
+ if(a[i]>a[j])
+ {
+  t=a[i];
+  a[i]=a[j];
+  a[j]=t;
+ }
+}
+}
+printf("\nsorted numbers are:\n");
+for(i=0;i<n;i++)
+printf("\t%d\n",a[i]);
+}

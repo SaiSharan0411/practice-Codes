@@ -1,0 +1,31 @@
+U:\cat17\C sharp\calculator\obj\Debug\calculator.csprojAssemblyReference.cache
+U:\cat17\C sharp\calculator\obj\Debug\calculator.Form1.resources
+U:\cat17\C sharp\calculator\obj\Debug\calculator.Properties.Resources.resources
+U:\cat17\C sharp\calculator\obj\Debug\calculator.csproj.GenerateResource.cache
+U:\cat17\C sharp\calculator\obj\Debug\calculator.csproj.CoreCompileInputs.cache
+U:\cat17\C sharp\calculator\bin\Debug\calculator.exe.config
+U:\cat17\C sharp\calculator\bin\Debug\calculator.exe
+U:\cat17\C sharp\calculator\bin\Debug\calculator.pdb
+U:\cat17\C sharp\calculator\obj\Debug\calculator.exe
+U:\cat17\C sharp\calculator\obj\Debug\calculator.pdb
+U:\cat16\c#\calculator\bin\Debug\calculator.exe.config
+U:\cat16\c#\calculator\bin\Debug\calculator.exe
+U:\cat16\c#\calculator\bin\Debug\calculator.pdb
+U:\cat16\c#\calculator\obj\Debug\calculator.Form1.resources
+U:\cat16\c#\calculator\obj\Debug\calculator.Properties.Resources.resources
+U:\cat16\c#\calculator\obj\Debug\calculator.csproj.GenerateResource.cache
+U:\cat16\c#\calculator\obj\Debug\calculator.csproj.CoreCompileInputs.cache
+U:\cat16\c#\calculator\obj\Debug\calculator.exe
+U:\cat16\c#\calculator\obj\Debug\calculator.pdb
+U:\cat16\c#\calculator\obj\Debug\calculator.csprojAssemblyReference.cache
+D:\cat16\c# cia-1\calculator\bin\Debug\calculator.exe.config
+D:\cat16\c# cia-1\calculator\bin\Debug\calculator.exe
+D:\cat16\c# cia-1\calculator\bin\Debug\calculator.pdb
+D:\cat16\c# cia-1\calculator\obj\Debug\calculator.csproj.AssemblyReference.cache
+D:\cat16\c# cia-1\calculator\obj\Debug\calculator.csproj.SuggestedBindingRedirects.cache
+D:\cat16\c# cia-1\calculator\obj\Debug\calculator.Form1.resources
+D:\cat16\c# cia-1\calculator\obj\Debug\calculator.Properties.Resources.resources
+D:\cat16\c# cia-1\calculator\obj\Debug\calculator.csproj.GenerateResource.cache
+D:\cat16\c# cia-1\calculator\obj\Debug\calculator.csproj.CoreCompileInputs.cache
+D:\cat16\c# cia-1\calculator\obj\Debug\calculator.exe
+D:\cat16\c# cia-1\calculator\obj\Debug\calculator.pdb

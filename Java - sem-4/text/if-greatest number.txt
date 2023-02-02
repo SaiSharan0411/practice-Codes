@@ -1,0 +1,10 @@
+import java.io.*;
+class greater
+{
+public static void main(String arg[])
+{
+int x=20, y=18;
+if (x>y)
+System.out.println("x is greater than y");
+}
+}

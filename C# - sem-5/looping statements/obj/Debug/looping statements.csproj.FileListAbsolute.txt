@@ -1,0 +1,7 @@
+U:\cat16\c#\looping statements\obj\Debug\looping statements.csprojAssemblyReference.cache
+U:\cat16\c#\looping statements\obj\Debug\looping statements.csproj.CoreCompileInputs.cache
+U:\cat16\c#\looping statements\bin\Debug\looping statements.exe.config
+U:\cat16\c#\looping statements\bin\Debug\looping statements.exe
+U:\cat16\c#\looping statements\bin\Debug\looping statements.pdb
+U:\cat16\c#\looping statements\obj\Debug\looping statements.exe
+U:\cat16\c#\looping statements\obj\Debug\looping statements.pdb

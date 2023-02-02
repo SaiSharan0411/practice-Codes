@@ -1,0 +1,45 @@
+#include<stdio.h>
+int main()
+{
+    int i,a,n;
+    printf("Enter a range");
+    scanf("%d",&n);
+    printf("\nwhich loop you want to use");
+    scanf("%d",&a);
+    switch(a)
+    {
+        case 1:
+        {
+            printf("\nfor loop\n");
+            for(i=1;i<=n;i++)
+           {
+              printf("%d\t\n",i);
+            }
+        }
+        break;
+        case 2:
+        {
+            printf("\nwhile loop\n");
+            i=1;
+            while(i<=n)
+           {
+              printf("%d\t\n",i);
+              i++;
+            }
+        }
+        break;
+        case 3:
+        {
+            printf("\ndo while loop\n");
+            i=1;
+            do
+           {
+              printf("%d\t\n",i);
+              i++;
+            }
+             while(i<=n);
+        }
+        break;
+    }
+    return 0;
+}

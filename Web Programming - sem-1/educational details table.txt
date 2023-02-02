@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>EDU.DETAILS</title>
+</head>
+<body>
+<center>
+<h1>EDUCATIONAL DETAILS</h1>
+<table border="3">
+<tr>
+<th>NAME</th>
+<th>sai sharan</th>
+</tr>
+<tr>
+<th>SCHOOL</th>
+<th>maharishi vishya mandir</th>
+</tr>
+<tr>
+<th>BOARD</th>
+<th>cbse</th>
+</tr>
+<tr>
+<th>SCHOOL ADDRESS</th>
+<th>chetpet</th>
+</tr>
+<tr>
+<th>SCHOOL (other)</th>
+<th>st vincent</th>
+</tr>
+<tr>
+<th>BOARD (other)</th>
+<th>matriculation</th>
+</tr>
+<tr>
+<th>SCHOOL ADDRESS (other)</th>
+<th>aminjikarai</th>
+</tr>
+<tr>
+<th>MARKS SCORED IN 10th</th>
+<th>384/500</th>
+</tr>
+<tr>
+<th>MARKS SCORED IN 12th</th>
+<th>351/600</th>
+</tr>
+<tr>
+<th>COLLEGE NAME</th>
+<th>loyola college</th>
+</tr>
+<tr>
+<th>COURSE STUDYING</th>
+<th>B.ca</th>
+</tr>
+<tr>
+<th>COLLEGE ADDRESS</th>
+<th>sterling rd, nungambakkam</th>
+</tr>
+</table>
+</center>
+</body>
+</html>

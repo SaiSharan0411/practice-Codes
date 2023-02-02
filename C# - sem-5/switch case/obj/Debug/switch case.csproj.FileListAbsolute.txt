@@ -1,0 +1,7 @@
+C:\Users\cat16\source\repos\switch case\bin\Debug\switch case.exe.config
+C:\Users\cat16\source\repos\switch case\bin\Debug\switch case.exe
+C:\Users\cat16\source\repos\switch case\bin\Debug\switch case.pdb
+C:\Users\cat16\source\repos\switch case\obj\Debug\switch case.csprojAssemblyReference.cache
+C:\Users\cat16\source\repos\switch case\obj\Debug\switch case.csproj.CoreCompileInputs.cache
+C:\Users\cat16\source\repos\switch case\obj\Debug\switch case.exe
+C:\Users\cat16\source\repos\switch case\obj\Debug\switch case.pdb

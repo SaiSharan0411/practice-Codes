@@ -1,0 +1,10 @@
+U:\cat16\c#\filehandling\bin\Debug\filehandling.exe.config
+U:\cat16\c#\filehandling\bin\Debug\filehandling.exe
+U:\cat16\c#\filehandling\bin\Debug\filehandling.pdb
+U:\cat16\c#\filehandling\obj\Debug\filehandling.csprojAssemblyReference.cache
+U:\cat16\c#\filehandling\obj\Debug\filehandling.Form1.resources
+U:\cat16\c#\filehandling\obj\Debug\filehandling.Properties.Resources.resources
+U:\cat16\c#\filehandling\obj\Debug\filehandling.csproj.GenerateResource.cache
+U:\cat16\c#\filehandling\obj\Debug\filehandling.csproj.CoreCompileInputs.cache
+U:\cat16\c#\filehandling\obj\Debug\filehandling.exe
+U:\cat16\c#\filehandling\obj\Debug\filehandling.pdb

@@ -1,0 +1,89 @@
+#include<stdio.h>
+void write()
+{
+     FILE *fpw;
+     char str[50];
+     fpw = fopen("Sample.txt", "w");
+     if (fpw== NULL)
+     {
+	  puts("Error in opening file!");
+     }
+     printf("Enter your string:");
+     scanf("%s",str);
+     fputs(str, fpw);
+     fclose(fpw);
+}
+void append()
+{
+     FILE *fpw;
+     char str[50];
+     fpw = fopen("Sample.txt", "a");
+     if (fpw== NULL)
+     {
+	  puts("Error in opening file!");
+     }
+     printf("Enter your string:");
+     scanf("%s",str);
+     fputs(str, fpw);
+     fclose(fpw);
+}
+void read()
+{
+     FILE *fpr;
+     char str[100];
+     fpr = fopen("Sample.txt", "r");
+     if (fpr == NULL)
+     {
+	  puts("Error in opening file!");
+     }
+     while(1)
+     {
+	  if(fgets(str, 10, fpr) == NULL)
+	       break;
+	  else
+	       printf("%s", str);
+     }
+     fclose(fpr);
+}
+int main()
+{
+     int ch;
+     printf("\t\tWelcome to File Handling Operations\n");
+     printf("By default there is an empty txt file, \n so you can choose from the options down below \n");
+     printf("1. Write to file\n");
+     printf("2. Append to file\n");
+     printf("3. Read the file\n");
+     printf("4. Exit\n");
+
+     while(1)
+     {
+	  printf("\nEnter your choice:");
+	  scanf("%d",&ch);
+
+	  if(ch==4)
+	  {
+	       printf("Thank you for using File Handling Operations, Good bye..");
+break;
+	  }
+
+	  switch(ch)
+	  {
+	       case(1):
+	       {
+		    write();
+		    break;
+	       }
+	       case(2):
+	       {
+		    append();
+		    break;
+	       }
+	       case(3):
+	       {
+		    read();
+		    break;
+	       }
+	  }
+     }
+     return 0;
+     }

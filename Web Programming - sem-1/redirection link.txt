@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>redirect</title>
+</head>
+<body>
+<h1><c><b><u>click the link</u></b></c></h1>
+<h1><c><a herf=https://iqac.loyolacollege.edu/academic/lms/>learn about loyola lms</a></c></h1>
+</body>
+</html>

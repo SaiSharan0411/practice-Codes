@@ -1,0 +1,10 @@
+import java.io.*;
+class intrest
+{
+public static void main(String arg[])
+{
+int pa=100,ny=10;
+float ri=1.5f,r=pa*ri*ny;
+System.out.println("the simple intrest is "+ r/100);
+}
+}

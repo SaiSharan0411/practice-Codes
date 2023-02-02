@@ -1,0 +1,20 @@
+U:\cat17\C sharp\studentapp\studentapp\obj\Debug\studentapp.csprojAssemblyReference.cache
+U:\cat17\C sharp\studentapp\studentapp\obj\Debug\studentapp.Form1.resources
+U:\cat17\C sharp\studentapp\studentapp\obj\Debug\studentapp.Properties.Resources.resources
+U:\cat17\C sharp\studentapp\studentapp\obj\Debug\studentapp.csproj.GenerateResource.cache
+U:\cat17\C sharp\studentapp\studentapp\obj\Debug\studentapp.csproj.CoreCompileInputs.cache
+U:\cat17\C sharp\studentapp\studentapp\bin\Debug\studentapp.exe.config
+U:\cat17\C sharp\studentapp\studentapp\bin\Debug\studentapp.exe
+U:\cat17\C sharp\studentapp\studentapp\bin\Debug\studentapp.pdb
+U:\cat17\C sharp\studentapp\studentapp\obj\Debug\studentapp.exe
+U:\cat17\C sharp\studentapp\studentapp\obj\Debug\studentapp.pdb
+U:\cat16\c#\studentapp\studentapp\bin\Debug\studentapp.exe.config
+U:\cat16\c#\studentapp\studentapp\bin\Debug\studentapp.exe
+U:\cat16\c#\studentapp\studentapp\bin\Debug\studentapp.pdb
+U:\cat16\c#\studentapp\studentapp\obj\Debug\studentapp.csprojAssemblyReference.cache
+U:\cat16\c#\studentapp\studentapp\obj\Debug\studentapp.Form1.resources
+U:\cat16\c#\studentapp\studentapp\obj\Debug\studentapp.Properties.Resources.resources
+U:\cat16\c#\studentapp\studentapp\obj\Debug\studentapp.csproj.GenerateResource.cache
+U:\cat16\c#\studentapp\studentapp\obj\Debug\studentapp.csproj.CoreCompileInputs.cache
+U:\cat16\c#\studentapp\studentapp\obj\Debug\studentapp.exe
+U:\cat16\c#\studentapp\studentapp\obj\Debug\studentapp.pdb
