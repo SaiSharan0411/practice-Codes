@@ -1,0 +1,5 @@
+conn cat16@orcl
+enter password:CAT16
+
+create user uca16_LOG identified by UCA16;
+drop user uca16_LOG

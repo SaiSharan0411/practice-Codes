@@ -1,0 +1,5 @@
+create table employee(enum int primary key,ename varchar(20) NOT NULL, DOB date,DOJ date ,designation varchar(20),salary int check(salary>0),check(DOJ>DOB));
+
+alter table employee add supervisor_code int references employee(enum);
+
+SELECT USER,TABLE_NAME FROM USER_TABLES;
